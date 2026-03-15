@@ -502,10 +502,27 @@ const imagenMesActual = Imagenes[nombreMesActual]
                     </p> */}
                     </li>
                   ))}
-                  
+                  <li>
+                  <img
+              src={imagenMesActual.escudo}
+              alt="Escudo de Judá"
+              className="block lg:hidden"
+              style={{
+                position: 'absolute',
+                bottom: '10px',
+                right: '10px',
+                //left: '10px',
+                width: '90px',
+                height: '90px',
+                objectFit: 'contain',
+                zIndex: 15,
+              }}
+            />
+                  </li>
                 </ul>
               )}<img
               src={imagenMesActual.escudo}
+              className="hidden lg:block"
               alt="Escudo de Judá"
               style={{
                 position: 'absolute',
