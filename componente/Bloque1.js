@@ -37,9 +37,9 @@ function Bloque1() {
     >
 
       <section
-      
+        className="flex flex-col pb-2 items-center justify-center text-center"
         style={{
-          maxWidth: "1500px",
+          maxWidth: "1200px",
           padding: "20px",
           zIndex: 2
         }}
@@ -51,34 +51,17 @@ function Bloque1() {
          className="logo-ahava"
         />
 
-        <h1
-          style={{
-            fontSize: "clamp(2.5rem,6vw,5rem)",
-            fontWeight: "300",
-            marginBottom: "10px"
-          }}
-        >
-          Bienvenid@ al Calendario Bíblico!
-        </h1>
+<h1 className="text-white text-6xl font-light mb-4">
+  Bienvenid@ al Calendario Bíblico!
+</h1>
 
-        <p
-          style={{
-            fontSize: "clamp(1.2rem,2vw,2rem)",
-            opacity: "0.9"
-          }}
-        >
-          La nueva herramienta para organizar tu año bíblicamente
-        </p>
+<h1 className="text-white text-3xl font-light pb-4">
+  La nueva herramienta para organizar tu año bíblicamente
+</h1>
 
-        <p
-          style={{
-            fontSize: "clamp(1.2rem,2vw,2rem)",
-            opacity: "0.9"
-          }}
-        >
-          y vivir la cultura del Reino de Yeshúa.
-        </p>
-
+<p className="text-white text-3xl font-light pb-30">
+  y vivir la cultura del Reino de Yeshúa.
+</p>
       </section>
 
       <div

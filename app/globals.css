@@ -28,7 +28,7 @@ body {
 .logo-ahava{
   width: 20%;
   height: 20%;
-  display: block;
+  display: flex;
   margin: 0 auto;
   }
 
