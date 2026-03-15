@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Calendario from "@/componente/Calendario"
 import Bloque1 from "@/componente/Bloque1"
-
+import Footer from "@/componente/Footer"
 export default function Home() {
   return (
-   <>
-   <Bloque1 />
- <Calendario />
- 
-   </>
+    <>
+      <Bloque1 />
+      <Calendario />
+      <Footer />
+
+    </>
   );
 }
