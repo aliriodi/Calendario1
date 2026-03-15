@@ -21,18 +21,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Imagenes = {
-  Enero: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Febrero: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-  Marzo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Abril: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-  Mayo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Junio: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-  Julio: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Agosto: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-  Septiembre: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Octubre: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-  Noviembre: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-  Diciembre: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"
+  Enero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Febrero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
+  Marzo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Abril: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png"},
+  Mayo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Junio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
+  Julio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Agosto: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
+  Septiembre:{image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Octubre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
+  Noviembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
+  Diciembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"}
 }
 const actividadesMock = [
   // Pésaj
@@ -409,7 +409,7 @@ const imagenMesActual = Imagenes[nombreMesActual]
   <div
     className="absolute inset-0 pointer-events-none"
     style={{
-      backgroundImage: `url(${imagenMesActual})`,
+      backgroundImage: `url(${imagenMesActual["image"]})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
@@ -463,7 +463,7 @@ const imagenMesActual = Imagenes[nombreMesActual]
 </div>
             </div>
 
-            <aside className="rounded-xl border p-4">
+            <aside className="relative rounded-xl border p-4">
               <h3 className="mb-4 text-lg font-semibold text-gray-800">
                 Actividades del día
               </h3>
@@ -473,9 +473,12 @@ const imagenMesActual = Imagenes[nombreMesActual]
               </p>
 
               {actividadesDelDia.length === 0 ? (
+                <div>
                 <p className="text-sm text-gray-500">
                   No hay actividades programadas para este día.
                 </p>
+               
+                </div>
               ) : (
                 <ul className="space-y-3">
                   {actividadesDelDia.map((actividad) => (
@@ -499,8 +502,22 @@ const imagenMesActual = Imagenes[nombreMesActual]
                     </p> */}
                     </li>
                   ))}
+                  
                 </ul>
-              )}
+              )}<img
+              src={imagenMesActual.escudo}
+              alt="Escudo de Judá"
+              style={{
+                position: 'absolute',
+                bottom: '10px',
+                //right: '10px',
+                left: '10px',
+                width: '90px',
+                height: '90px',
+                objectFit: 'contain',
+                zIndex: 15,
+              }}
+            />
             </aside>
           </div>
         </div>
