@@ -70,7 +70,7 @@ function FooterAhava() {
         <div className="my-10 h-px w-full bg-white/50" />
 
         <p className="text-center text-2xl font-light text-white/70">
-          © Compañía de Artistas Proféticos | Copyright 2024
+          © Compañía de Artistas Proféticos | Copyright 2026
         </p>
       </div>
     </footer>
