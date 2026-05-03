@@ -1,5 +1,6 @@
 'use client'
 import CalendarHead from '@/componente/Head'
+import EscudoModal from '@/componente/Modal'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 import { es } from 'date-fns/locale'
 import {
@@ -21,18 +22,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Imagenes = {
-  Enero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Febrero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
-  Marzo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Abril: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png"},
-  Mayo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Junio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
-  Julio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Agosto: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
-  Septiembre:{image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Octubre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"},
-  Noviembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg"},
-  Diciembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg"}
+  Enero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",  description:"Description Enero"},
+  Febrero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Febrero"},
+  Marzo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",   description:"Description Marzo"},
+  Abril: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",        description:"Description Abril"},
+  Mayo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",    description:"Description Mayo"},
+  Junio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",   description:"Description Junio"},
+  Julio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",   description:"Description Julio"},
+  Agosto: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Agosto"},
+  Septiembre:{image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description:"Description Septiembre"},
+  Octubre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",   description:"Description Octubre"},
+  Noviembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description:"Description Noviembre"},
+  Diciembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Diciembre"},
 }
 const actividadesMock = [
   // Pésaj
@@ -353,7 +354,8 @@ const imagenMesActual = Imagenes[nombreMesActual]
   return (
     <div>
       <CalendarHead />
-      <div className="min-h-screen bg-gray-100 p-6">
+      <div className="min-h-screen bg-white p-6">
+      {/* <div className="min-h-screen bg-gray-100 p-6"> */}
         <div className="mx-auto max-w-6xl rounded-xl bg-white p-6 shadow">
           <h1 className="pb-4 mb-2 text-2xl font-bold text-gray-800">
             Calendario de actividades
@@ -520,7 +522,8 @@ const imagenMesActual = Imagenes[nombreMesActual]
             />
                   </li>
                 </ul>
-              )}<img
+              )}
+              <img
               src={imagenMesActual.escudo}
               className="hidden lg:block"
               alt="Escudo de Judá"
@@ -534,6 +537,10 @@ const imagenMesActual = Imagenes[nombreMesActual]
                 objectFit: 'contain',
                 zIndex: 15,
               }}
+            />
+            <EscudoModal 
+            imagenMesActual={imagenMesActual.escudo}
+            mensaje={imagenMesActual.description}
             />
             </aside>
           </div>

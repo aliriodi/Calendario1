@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/prueba/page.js", "app/prueba/page.js"  ],
+, "app/prueba/page.js", "app/prueba/page.js", "lib/mongodb.js", "models/User.js", "lib/auth.js", "app/login/page.js", "app/layout.js", "app/admin/users/page.js", "componente/Logout.js", "app/page.js"  ],
   "exclude": ["node_modules"]
 }

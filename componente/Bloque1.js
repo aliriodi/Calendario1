@@ -9,6 +9,7 @@ function Bloque1() {
   "https://res.cloudinary.com/dvy9qircy/image/upload/v1773603124/forex/forex_academy_professional_ImageAHAVA.png"
 
   return (
+  
     <header
       style={{
         position: "relative",
@@ -34,10 +35,11 @@ function Bloque1() {
         //backgroundSize: "cover",
        // backgroundPosition: "center"
       }}
+      
     >
-
+ 
       <section
-        className="flex flex-col pb-2 items-center justify-center text-center"
+        className="flex   flex-col pb-2 items-center justify-center text-center"
         style={{
           maxWidth: "1200px",
           padding: "20px",
@@ -85,7 +87,7 @@ function Bloque1() {
           />
         </svg>
       </div>
-
+     
     </header>
   )
 }
