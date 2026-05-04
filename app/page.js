@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <>
       <Bloque1 />
-      {false && !session && <Login/>}
-      {true &&<Calendario /> }
+      { !session && <Login/>}
+      {session &&<Calendario /> }
       {/* 🔥 Solo mostrar si hay sesión */}
       {session &&  <div className="bg-white px-4 pb-4 flex justify-start"><Logout /></div>}
       <Footer />
