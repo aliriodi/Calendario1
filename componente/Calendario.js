@@ -21,8 +21,9 @@ import { useMemo, useState } from 'react'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
+
 const Imagenes = {
- 
+
   Marzo: {
     Mes: "1ER MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
@@ -35,7 +36,35 @@ const Imagenes = {
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
     Calend1: "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
-    description: "Description Abril"
+    description: "Description Abril",
+    tabla: [
+      {
+        label: "Emblema / Estandarte",
+        title: "Mandrágora",
+        text: "Amor filial, fertilidad y primogenitura buscada. Reuben la recogió para su madre Lea (Gn 30:14).",
+      },
+      {
+        label: "Color",
+        title: "Azul Zafiro / Azul Real",
+        text: "",
+      },
+      {
+        label: "Piedra preciosa",
+        title: "Zafiro",
+        text: "Los Mandamientos de Dios, autoridad real, trono divino de zafiro. Nm 15:38; Ex 24:10.",
+      },
+      {
+        label: "Letra del Alefato",
+        title: "Bet",
+        text: "Segunda letra. Valor: 2. Casa/Hogar. Cerrada por tres lados, abierta al frente.",
+      },
+
+      {
+        label: "Significado del nombre",
+        title: "Reuben — Ha mirado el Señor mi aflicción",
+        text: "Mirad, un hijo. El que es visto y reconocido por Dios. Gn 29:32.",
+      },
+    ]
   },
   Mayo: {
     Mes: "3ER MES",
@@ -53,49 +82,49 @@ const Imagenes = {
   },
   Julio: {
     Mes: "5TO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg", 
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png",
     description: "Description Julio",
     Calend1: "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas."
   },
   Agosto: {
     Mes: "6TO MES",
-    image: "", 
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png", 
+    image: "",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png",
     description: "Description Agosto",
     Calend1: "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes."
   },
   Septiembre: {
     Mes: "7MO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg", 
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png",
     description: "Description Septiembre",
     Calend1: "Rompimientos de iniquidades. Mes de juicio y de separacion."
   },
   Octubre: {
     Mes: "8VO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg", 
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png",
     description: "Description Octubre",
     Calend1: "Uncion sacerdotal. Mes de union del pueblo de Dios. Mes de la ensenanza de la palabra, sus leyes y sus juicios. Mes de herir los lomos de los enemigos para que nunca se levanten."
   },
   Noviembre: {
     Mes: "9NO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656721/forex/forex_academy_professional_Escudo9noMesTribuIsacar.png",
-     description: "Description Noviembre",
+    description: "Description Noviembre",
     Calend1: "Convocar el pueblo del Senor al monte. Mes de entendimiento de los tiempos del Padre. Mes de ofrendas de justicia. Mes de revelacion de los tesoros escondidos y codigos secretos."
   },
   Diciembre: {
     Mes: "10MO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg", 
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png",
     description: "Description Diciembre",
     Calend1: "Bendicion financiera comercial y empresarial. Mes de autoridad sobre las aguas. Mes de batallas territoriales."
   },
   Enero: {
     Mes: "11VO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656888/forex/forex_academy_professional_Escudo11voMesTribuJose.png",
     description: "Description Enero",
     Calend1: "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
@@ -103,7 +132,7 @@ const Imagenes = {
   Febrero: {
     Mes: "12VO MES",
     image: "",
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png", 
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png",
     description: "Description Febrero",
     Calend1: "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequeños que moran en Sus hombros.",
   },
@@ -329,7 +358,32 @@ const actividadesMock = [
     image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop',
   },
 ]
+function TablaMes(data) {
+  return (
+    <div className="mt-6 overflow-hidden rounded-xl border border-[#d8c79a] bg-[#fff7e6] text-sm text-gray-900">
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        {data?.map((item, index) => (
+          <div
+            key={index}
+            className="border-b border-[#d8c79a] p-4 md:border-r"
+          >
+            <p className="mb-1 text-xs font-bold uppercase text-[#9a6a12]">
+              {item.label}
+            </p>
 
+            <h4 className="font-bold">
+              {item.title}
+            </h4>
+
+            <p className="mt-1 italic leading-relaxed">
+              {item.text}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 function buildUtcDate(date, time, timeZone) {
   return fromZonedTime(`${date}T${time}:00`, timeZone)
 }
@@ -384,7 +438,7 @@ export default function ScheduleDemo() {
   const [selectedDay, setSelectedDay] = useState(today)
   const [currentMonth, setCurrentMonth] = useState(format(today, 'MMM-yyyy'))
   const firstDayCurrentMonth = parse(currentMonth, 'MMM-yyyy', new Date())
-
+  const [showTableOpt, SetShowTabletOpt] = useState(true)
   const nombreMesActual =
     format(firstDayCurrentMonth, 'MMMM', { locale: es })
       .charAt(0)
@@ -426,6 +480,14 @@ export default function ScheduleDemo() {
 
   return (
     <div>
+      <div className="bg-white">
+      <button
+        onClick={() => SetShowTabletOpt(!showTableOpt)}
+        className="rounded-lg bg-black px-4 py-2 text-white hover:bg-gray-700 transition cursor-pointer"
+      >
+        {showTableOpt ? "Mostrar tabla abajo" : "Mostrar tabla a la derecha"}
+      </button>
+      </div>
       <CalendarHead />
       <div className="min-h-screen bg-white p-6">
         {/* <div className="min-h-screen bg-gray-100 p-6"> */}
@@ -453,11 +515,11 @@ export default function ScheduleDemo() {
                 </button>
 
                 <h2 className="text-lg font-semibold text-gray-800">
-               {imagenMesActual["Mes"]}   {' '}/ {format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es })
+                  {imagenMesActual["Mes"]}   {' '}/ {format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es })
                     .charAt(0)
                     .toUpperCase() +
                     format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es }).slice(1)}
-                  
+
                 </h2>
 
                 <button
@@ -543,7 +605,7 @@ export default function ScheduleDemo() {
               <h3 className="mb-4 text-lg font-semibold text-gray-800">
                 Actividades del día
               </h3>
-
+              {showTableOpt && TablaMes(imagenMesActual?.tabla || [])}
               <p className="mb-4 text-sm text-gray-500">
                 {format(selectedDay, "EEEE d 'de' MMMM yyyy", { locale: es })}
               </p>
@@ -618,6 +680,7 @@ export default function ScheduleDemo() {
               />
             </aside>
           </div>
+          {!showTableOpt && TablaMes(imagenMesActual?.tabla || [])}
         </div>
       </div>
     </div>
