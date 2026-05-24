@@ -1,15 +1,45 @@
-import React from 'react'
+"use client";
+import React, { useState } from "react";
 
 function Bloque1() {
+  const opciones = {
+    opcion1: {
+      label: "Estilo 1",
+      background:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1773602099/forex/forex_academy_professional_bacgroundNavbar1.jpg",
+      image:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1773603124/forex/forex_academy_professional_ImageAHAVA.png",
+      gradient: `
+        linear-gradient(120deg,
+          rgba(255,80,80,0.35),
+          rgba(255,180,0,0.35),
+          rgba(0,180,255,0.35),
+          rgba(0,200,120,0.35)
+        )
+      `,
+    },
 
-  const Imageback =
-  "https://res.cloudinary.com/dvy9qircy/image/upload/v1773602099/forex/forex_academy_professional_bacgroundNavbar1.jpg"
+    opcion2: {
+      label: "Estilo 2",
+      background:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1779648273/forex/forex_academy_professional_Fondo2CALENDARIO.png",
+      image:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1779649639/forex/forex_academy_professional_ahava2Calenadario3.png",
+      gradient: `
+        linear-gradient(120deg,
+          rgba(10,10,10,0.65),
+          rgba(120,80,20,0.45),
+          rgba(255,190,80,0.35)
+        )
+      `,
+    },
+  };
 
-  const ImageAhava =
-  "https://res.cloudinary.com/dvy9qircy/image/upload/v1773603124/forex/forex_academy_professional_ImageAHAVA.png"
+  const [estiloActivo, setEstiloActivo] = useState("opcion1");
+
+  const data = opciones[estiloActivo];
 
   return (
-  
     <header
       style={{
         position: "relative",
@@ -22,48 +52,65 @@ function Bloque1() {
         textAlign: "center",
         color: "white",
         overflow: "hidden",
-
-        backgroundImage: `
-          linear-gradient(120deg,
-          rgba(255,80,80,0.35),
-          rgba(255,180,0,0.35),
-          rgba(0,180,255,0.35),
-          rgba(0,200,120,0.35)
-          ),
-          url(${Imageback})
-        `,
-        //backgroundSize: "cover",
-       // backgroundPosition: "center"
+        backgroundImage: `${data.gradient}, url(${data.background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        transition: "all 0.5s ease",
       }}
-      
     >
- 
+      <div
+        className="flex gap-4 absolute top-6 z-20"
+      >
+        <button
+          onClick={() => setEstiloActivo("opcion1")}
+          className={`px-5 py-2 rounded-full text-white border ${
+            estiloActivo === "opcion1"
+              ? "bg-white/30 border-white"
+              : "bg-black/30 border-white/40"
+          }`}
+        >
+          Estilo 1
+        </button>
+
+        <button
+          onClick={() => setEstiloActivo("opcion2")}
+          className={`px-5 py-2 rounded-full text-white border ${
+            estiloActivo === "opcion2"
+              ? "bg-white/30 border-white"
+              : "bg-black/30 border-white/40"
+          }`}
+        >
+          Estilo 2
+        </button>
+      </div>
+
       <section
-        className="flex   flex-col pb-2 items-center justify-center text-center"
+        className="flex flex-col pb-2 items-center justify-center text-center"
         style={{
           maxWidth: "1200px",
           padding: "20px",
-          zIndex: 2
+          zIndex: 2,
         }}
       >
+        <div className="w-[420px] h-[160px] flex items-center justify-center mb-6">
+  <img
+    src={data.image}
+    alt="Ahava"
+    className="max-w-full max-h-full object-contain"
+  />
+</div>
 
-        <img
-          src={ImageAhava}
-          alt="Ahava"
-         className="logo-ahava"
-        />
+        <h1 className="text-white text-6xl font-light mb-4">
+          Bienvenid@ al Calendario Bíblico!
+        </h1>
 
-<h1 className="text-white text-6xl font-light mb-4">
-  Bienvenid@ al Calendario Bíblico!
-</h1>
+        <h1 className="text-white text-3xl font-light pb-4">
+          La nueva herramienta para organizar tu año bíblicamente
+        </h1>
 
-<h1 className="text-white text-3xl font-light pb-4">
-  La nueva herramienta para organizar tu año bíblicamente
-</h1>
-
-<p className="text-white text-3xl font-light pb-30">
-  y vivir la cultura del Reino de Yeshúa.
-</p>
+        <p className="text-white text-3xl font-light pb-30">
+          y vivir la cultura del Reino de Yeshúa.
+        </p>
       </section>
 
       <div
@@ -72,7 +119,7 @@ function Bloque1() {
           bottom: 0,
           width: "100%",
           height: "150px",
-          overflow: "hidden"
+          overflow: "hidden",
         }}
       >
         <svg
@@ -87,9 +134,8 @@ function Bloque1() {
           />
         </svg>
       </div>
-     
     </header>
-  )
+  );
 }
 
-export default Bloque1
+export default Bloque1;
