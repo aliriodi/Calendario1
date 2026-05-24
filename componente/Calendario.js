@@ -32,28 +32,28 @@ const Imagenes = {
   },
   Abril: {
     Mes: "2DO MES",
-    image: "",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
     Calend1: "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
     description: "Description Abril"
   },
   Mayo: {
     Mes: "3ER MES",
-    image: "",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657380/forex/forex_academy_professional_Mes3ero.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656218/forex/forex_academy_professional_Escudo3eroMesTribuGad.png",
     Calend1: "Ensanchamiento. Mes de estremecimiento y juicio divino de los enemigos de los propositos de Dios. Mes de ser favorecidos por Dios.",
     description: "Description Mayo"
   },
   Junio: {
     Mes: "4TO MES",
-    image: "",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657403/forex/forex_academy_professional_Mes4to.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656340/forex/forex_academy_professional_Escudo4toMesTribuASER.png",
     Calend1: "Exito y prosperidad del pueblo de Dios. Mes de dar mucho fruto y uncion territorial.",
     description: "Description Junio"
   },
   Julio: {
     Mes: "5TO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png", 
     description: "Description Julio",
     Calend1: "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas."
@@ -67,35 +67,35 @@ const Imagenes = {
   },
   Septiembre: {
     Mes: "7MO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png", 
     description: "Description Septiembre",
     Calend1: "Rompimientos de iniquidades. Mes de juicio y de separacion."
   },
   Octubre: {
     Mes: "8VO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png", 
     description: "Description Octubre",
     Calend1: "Uncion sacerdotal. Mes de union del pueblo de Dios. Mes de la ensenanza de la palabra, sus leyes y sus juicios. Mes de herir los lomos de los enemigos para que nunca se levanten."
   },
   Noviembre: {
     Mes: "9NO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656721/forex/forex_academy_professional_Escudo9noMesTribuIsacar.png",
      description: "Description Noviembre",
     Calend1: "Convocar el pueblo del Senor al monte. Mes de entendimiento de los tiempos del Padre. Mes de ofrendas de justicia. Mes de revelacion de los tesoros escondidos y codigos secretos."
   },
   Diciembre: {
     Mes: "10MO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png", 
     description: "Description Diciembre",
     Calend1: "Bendicion financiera comercial y empresarial. Mes de autoridad sobre las aguas. Mes de batallas territoriales."
   },
   Enero: {
     Mes: "11VO MES",
-    image: "", 
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg", 
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656888/forex/forex_academy_professional_Escudo11voMesTribuJose.png",
     description: "Description Enero",
     Calend1: "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
