@@ -7,7 +7,7 @@ function FooterAhava() {
 
   return (
     <footer
-    className="relative left-1/2 w-screen -translate-x-1/2 text-white"
+    className="relative left-1/2 w-screen -translate-x-1/2 text-white/90"
       style={{
         position: 'relative',
        overflow: 'hidden',
