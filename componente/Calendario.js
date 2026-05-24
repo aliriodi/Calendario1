@@ -22,18 +22,75 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Imagenes = {
-  Enero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",  description:"Description Enero"},
-  Febrero: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Febrero"},
-  Marzo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",   description:"Description Marzo"},
-  Abril: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",        description:"Description Abril"},
-  Mayo: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",    description:"Description Mayo"},
-  Junio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",   description:"Description Junio"},
-  Julio: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",   description:"Description Julio"},
-  Agosto: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Agosto"},
-  Septiembre:{image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description:"Description Septiembre"},
-  Octubre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",   description:"Description Octubre"},
-  Noviembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description:"Description Noviembre"},
-  Diciembre: {image:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo:"https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description:"Description Diciembre"},
+ 
+  Marzo: {
+    Mes: "1ER MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
+    Calend1: "Redencion, Liberacion y Restitucion. Mes de pasar de muerte a vida. Mes de nueva uncion.",
+    description: "Description Marzo"
+  },
+  Abril: {
+    Mes: "2DO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
+    Calend1: "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
+    description: "Description Abril"
+  },
+  Mayo: {
+    Mes: "3ER MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
+    Calend1: "Ensanchamiento. Mes de estremecimiento y juicio divino de los enemigos de los propositos de Dios. Mes de ser favorecidos por Dios.",
+    description: "Description Mayo"
+  },
+  Junio: {
+    Mes: "4TO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
+    Calend1: "Exito y prosperidad del pueblo de Dios. Mes de dar mucho fruto y uncion territorial.",
+    description: "Description Junio"
+  },
+  Julio: {
+    Mes: "5TO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description: "Description Julio",
+    Calend1: "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas."
+  },
+  Agosto: {
+    Mes: "6TO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description: "Description Agosto",
+    Calend1: "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes."
+  },
+  Septiembre: {
+    Mes: "7MO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description: "Description Septiembre",
+    Calend1: "Rompimientos de iniquidades. Mes de juicio y de separacion."
+  },
+  Octubre: {
+    Mes: "8VO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description: "Description Octubre",
+    Calend1: "Uncion sacerdotal. Mes de union del pueblo de Dios. Mes de la ensenanza de la palabra, sus leyes y sus juicios. Mes de herir los lomos de los enemigos para que nunca se levanten."
+  },
+  Noviembre: {
+    Mes: "9NO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description: "Description Noviembre",
+    Calend1: "Convocar el pueblo del Senor al monte. Mes de entendimiento de los tiempos del Padre. Mes de ofrendas de justicia. Mes de revelacion de los tesoros escondidos y codigos secretos."
+  },
+  Diciembre: {
+    Mes: "10MO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description: "Description Diciembre",
+    Calend1: "Bendicion financiera comercial y empresarial. Mes de autoridad sobre las aguas. Mes de batallas territoriales."
+  },
+  Enero: {
+    Mes: "11VO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg", description: "Description Enero",
+    Calend1: "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
+  },
+  Febrero: {
+    Mes: "12VO MES",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg", description: "Description Febrero",
+    Calend1: "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequeños que moran en Sus hombros.",
+  },
 }
 const actividadesMock = [
   // Pésaj
@@ -313,12 +370,12 @@ export default function ScheduleDemo() {
   const firstDayCurrentMonth = parse(currentMonth, 'MMM-yyyy', new Date())
 
   const nombreMesActual =
-  format(firstDayCurrentMonth, 'MMMM', { locale: es })
-    .charAt(0)
-    .toUpperCase() +
-  format(firstDayCurrentMonth, 'MMMM', { locale: es }).slice(1)
+    format(firstDayCurrentMonth, 'MMMM', { locale: es })
+      .charAt(0)
+      .toUpperCase() +
+    format(firstDayCurrentMonth, 'MMMM', { locale: es }).slice(1)
 
-const imagenMesActual = Imagenes[nombreMesActual]
+  const imagenMesActual = Imagenes[nombreMesActual]
 
   const userTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'
@@ -328,7 +385,7 @@ const imagenMesActual = Imagenes[nombreMesActual]
       normalizeActividad(actividad, userTimeZone)
     )
   }, [userTimeZone])
-  
+
   const days = eachDayOfInterval({
     start: firstDayCurrentMonth,
     end: endOfMonth(firstDayCurrentMonth),
@@ -339,7 +396,7 @@ const imagenMesActual = Imagenes[nombreMesActual]
     return actividades.filter(
       (actividad) => actividad.localDateKey === selectedDayKey
     )
-  }, [selectedDay, actividades, ])
+  }, [selectedDay, actividades,])
 
   function previousMonth() {
     const firstDayPreviousMonth = add(firstDayCurrentMonth, { months: -1 })
@@ -355,10 +412,10 @@ const imagenMesActual = Imagenes[nombreMesActual]
     <div>
       <CalendarHead />
       <div className="min-h-screen bg-white p-6">
-      {/* <div className="min-h-screen bg-gray-100 p-6"> */}
+        {/* <div className="min-h-screen bg-gray-100 p-6"> */}
         <div className="mx-auto max-w-6xl rounded-xl bg-white p-6 shadow">
           <h1 className="pb-4 mb-2 text-2xl font-bold text-gray-800">
-            Calendario de actividades
+            <b>MES DE:</b> {imagenMesActual["Calend1"]}
           </h1>
           {/* 
         <p className="mb-1 text-sm text-gray-500">
@@ -380,10 +437,11 @@ const imagenMesActual = Imagenes[nombreMesActual]
                 </button>
 
                 <h2 className="text-lg font-semibold text-gray-800">
-                  {format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es })
+               {imagenMesActual["Mes"]}   {' '}/ {format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es })
                     .charAt(0)
                     .toUpperCase() +
                     format(firstDayCurrentMonth, 'MMMM yyyy', { locale: es }).slice(1)}
+                  
                 </h2>
 
                 <button
@@ -405,64 +463,64 @@ const imagenMesActual = Imagenes[nombreMesActual]
                 <div className="py-2">Sáb</div>
               </div>
 
-           
+
               <div className="relative border border-t-0 overflow-hidden rounded-b-lg">
-  {/* Fondo decorativo */}
-  <div
-    className="absolute inset-0 pointer-events-none"
-    style={{
-      backgroundImage: `url(${imagenMesActual["image"]})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      opacity: 0.62,
-    }}
-  />
+                {/* Fondo decorativo */}
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    backgroundImage: `url(${imagenMesActual["image"]})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    opacity: 0.62,
+                  }}
+                />
 
-  {/* Capa aclaradora */}
-  <div className="absolute inset-0 bg-white/55 pointer-events-none" />
+                {/* Capa aclaradora */}
+                <div className="absolute inset-0 bg-white/55 pointer-events-none" />
 
-  {/* Contenido real */}
-  <div className="relative z-10 grid grid-cols-7 gap-1 p-2">
-    {days.map((day, dayIdx) => {
-      const dayKey = format(day, 'yyyy-MM-dd')
+                {/* Contenido real */}
+                <div className="relative z-10 grid grid-cols-7 gap-1 p-2">
+                  {days.map((day, dayIdx) => {
+                    const dayKey = format(day, 'yyyy-MM-dd')
 
-      const tieneActividad = actividades.some(
-        (actividad) => actividad.localDateKey === dayKey
-      )
+                    const tieneActividad = actividades.some(
+                      (actividad) => actividad.localDateKey === dayKey
+                    )
 
-      return (
-        <div
-          key={day.toString()}
-          className={classNames(
-            dayIdx === 0 && colStartClasses[getDay(day)],
-            'py-1.5'
-          )}
-        >
-          <button
-            type="button"
-            onClick={() => setSelectedDay(day)}
-            className={classNames(
-              isSameDay(day, selectedDay)
-                ? 'bg-black text-white'
-                : 'text-gray-800 hover:bg-gray-200',
-              !isSameMonth(day, firstDayCurrentMonth) && 'text-gray-400',
-              isToday(day) && !isSameDay(day, selectedDay) && 'font-bold',
-              tieneActividad &&
-                !isSameDay(day, selectedDay) &&
-                'bg-yellow-300 text-black',
-              'mx-auto flex h-10 w-10 items-center justify-center rounded-full cursor-pointer transition'
-            )}
-          >
-            <time dateTime={format(day, 'yyyy-MM-dd')}>
-              {format(day, 'd')}
-            </time>
-          </button>
-        </div>
-      )
-    })}
-  </div>
-</div>
+                    return (
+                      <div
+                        key={day.toString()}
+                        className={classNames(
+                          dayIdx === 0 && colStartClasses[getDay(day)],
+                          'py-1.5'
+                        )}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => setSelectedDay(day)}
+                          className={classNames(
+                            isSameDay(day, selectedDay)
+                              ? 'bg-black text-white'
+                              : 'text-gray-800 hover:bg-gray-200',
+                            !isSameMonth(day, firstDayCurrentMonth) && 'text-gray-400',
+                            isToday(day) && !isSameDay(day, selectedDay) && 'font-bold',
+                            tieneActividad &&
+                            !isSameDay(day, selectedDay) &&
+                            'bg-yellow-300 text-black',
+                            'mx-auto flex h-10 w-10 items-center justify-center rounded-full cursor-pointer transition'
+                          )}
+                        >
+                          <time dateTime={format(day, 'yyyy-MM-dd')}>
+                            {format(day, 'd')}
+                          </time>
+                        </button>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
             </div>
 
             <aside className="relative rounded-xl border p-4">
@@ -476,10 +534,10 @@ const imagenMesActual = Imagenes[nombreMesActual]
 
               {actividadesDelDia.length === 0 ? (
                 <div>
-                <p className="text-sm text-gray-500">
-                  No hay actividades programadas para este día.
-                </p>
-               
+                  <p className="text-sm text-gray-500">
+                    No hay actividades programadas para este día.
+                  </p>
+
                 </div>
               ) : (
                 <ul className="space-y-3">
@@ -505,43 +563,43 @@ const imagenMesActual = Imagenes[nombreMesActual]
                     </li>
                   ))}
                   <li>
-                  <img
-              src={imagenMesActual.escudo}
-              alt="Escudo de Judá"
-              className="block lg:hidden"
-              style={{
-                position: 'absolute',
-                bottom: '10px',
-                right: '10px',
-                //left: '10px',
-                width: '90px',
-                height: '90px',
-                objectFit: 'contain',
-                zIndex: 15,
-              }}
-            />
+                    <img
+                      src={imagenMesActual.escudo}
+                      alt="Escudo de Judá"
+                      className="block lg:hidden"
+                      style={{
+                        position: 'absolute',
+                        bottom: '10px',
+                        right: '10px',
+                        //left: '10px',
+                        width: '90px',
+                        height: '90px',
+                        objectFit: 'contain',
+                        zIndex: 15,
+                      }}
+                    />
                   </li>
                 </ul>
               )}
               <img
-              src={imagenMesActual.escudo}
-              className="hidden lg:block"
-              alt="Escudo de Judá"
-              style={{
-                position: 'absolute',
-                bottom: '10px',
-                //right: '10px',
-                left: '10px',
-                width: '90px',
-                height: '90px',
-                objectFit: 'contain',
-                zIndex: 15,
-              }}
-            />
-            <EscudoModal 
-            imagenMesActual={imagenMesActual.escudo}
-            mensaje={imagenMesActual.description}
-            />
+                src={imagenMesActual.escudo}
+                className="hidden lg:block"
+                alt="Escudo de Judá"
+                style={{
+                  position: 'absolute',
+                  bottom: '10px',
+                  //right: '10px',
+                  left: '10px',
+                  width: '90px',
+                  height: '90px',
+                  objectFit: 'contain',
+                  zIndex: 15,
+                }}
+              />
+              <EscudoModal
+                imagenMesActual={imagenMesActual.escudo}
+                mensaje={imagenMesActual.description}
+              />
             </aside>
           </div>
         </div>
