@@ -7,11 +7,11 @@ function FooterAhava() {
 
   return (
     <footer
-    
+    className="relative left-1/2 w-screen -translate-x-1/2 \"
       style={{
         position: 'relative',
-        overflow: 'hidden',
-        color: '#fff',
+       overflow: 'hidden',
+      //  color: '#fff',
         backgroundImage: `
         linear-gradient(120deg,
             rgba(0,0,0,0),
@@ -30,7 +30,7 @@ function FooterAhava() {
         //     ),
         //   url(${fondoFooter})
         // `,
-       // backgroundSize: 'cover',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
       }}

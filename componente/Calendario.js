@@ -25,15 +25,15 @@ const Imagenes = {
  
   Marzo: {
     Mes: "1ER MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773600263/forex/forex_academy_professional_EneroCALENDARIO1.jpg",
+    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
+    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
     Calend1: "Redencion, Liberacion y Restitucion. Mes de pasar de muerte a vida. Mes de nueva uncion.",
     description: "Description Marzo"
   },
   Abril: {
     Mes: "2DO MES",
-    image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
-    escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
+    image: "",
+    escudo: "",
     Calend1: "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
     description: "Description Abril"
   },
