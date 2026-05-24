@@ -56,17 +56,17 @@ function Bloque1() {
         "https://res.cloudinary.com/dvy9qircy/image/upload/v1779649639/forex/forex_academy_professional_ahava2Calenadario3.png",
       gradient: `
         linear-gradient(120deg,
-          rgba(255,80,80,0.35),
-          rgba(255,180,0,0.35),
-          rgba(0,180,255,0.35),
-          rgba(0,200,120,0.35)
+          rgba(0,0,0,0),
+          rgba(0,0,0,0),
+          rgba(0,0,0,0),
+          rgba(0,0,0,0)
         )
       `,
     },
 
   };
 
-  const [estiloActivo, setEstiloActivo] = useState("opcion1");
+  const [estiloActivo, setEstiloActivo] = useState("opcion4");
 
   const data = opciones[estiloActivo];
 
@@ -89,7 +89,7 @@ function Bloque1() {
         transition: "all 0.5s ease",
       }}
     >
-      <div
+      {/* <div
         className="flex gap-4 absolute top-6 z-20"
       >
         <button
@@ -133,7 +133,7 @@ function Bloque1() {
         >
           Estilo 4
         </button>
-      </div>
+      </div> */}
 
       <section
         className="flex flex-col pb-2 items-center justify-center text-center"

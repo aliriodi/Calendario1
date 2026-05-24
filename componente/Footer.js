@@ -14,13 +14,22 @@ function FooterAhava() {
         color: '#fff',
         backgroundImage: `
         linear-gradient(120deg,
-            rgba(255,80,80,0.35),
-            rgba(255,180,0,0.35),
-            rgba(0,180,255,0.35),
-            rgba(0,200,120,0.35)
+            rgba(0,0,0,0),
+            rgba(0,0,0,0),
+            rgba(0,0,0,0),
+            rgba(0,0,0,0)
             ),
           url(${fondoFooter})
         `,
+        // backgroundImage: `
+        // linear-gradient(120deg,
+        //     rgba(255,80,80,0.35),
+        //     rgba(255,180,0,0.35),
+        //     rgba(0,180,255,0.35),
+        //     rgba(0,200,120,0.35)
+        //     ),
+        //   url(${fondoFooter})
+        // `,
        // backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
