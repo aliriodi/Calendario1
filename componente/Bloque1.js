@@ -47,7 +47,23 @@ function Bloque1() {
           rgba(0,0,0,0)
         )
       `,
-    }
+    },
+    opcion4: {
+      label: "Estilo 4",
+      background:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1773602099/forex/forex_academy_professional_bacgroundNavbar1.jpg",
+      image:
+        "https://res.cloudinary.com/dvy9qircy/image/upload/v1779649639/forex/forex_academy_professional_ahava2Calenadario3.png",
+      gradient: `
+        linear-gradient(120deg,
+          rgba(255,80,80,0.35),
+          rgba(255,180,0,0.35),
+          rgba(0,180,255,0.35),
+          rgba(0,200,120,0.35)
+        )
+      `,
+    },
+
   };
 
   const [estiloActivo, setEstiloActivo] = useState("opcion1");
@@ -106,6 +122,16 @@ function Bloque1() {
           }`}
         >
           Estilo 3
+        </button>
+        <button
+          onClick={() => setEstiloActivo("opcion4")}
+          className={`px-5 py-2 rounded-full text-white border ${
+            estiloActivo === "opcion4"
+              ? "bg-white/30 border-white"
+              : "bg-black/30 border-white/40"
+          }`}
+        >
+          Estilo 4
         </button>
       </div>
 
