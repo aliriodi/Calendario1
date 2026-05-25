@@ -1,0 +1,457 @@
+{
+    "Marzo": {
+      "Mes": "1ER MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
+      "Calend1": "Redencion, Liberacion y Restitucion. Mes de pasar de muerte a vida. Mes de nueva uncion.",
+      "description": "Mes de Yehudah",
+      "color": "bg-[#8B0000]",
+      "colorHover": "hover:bg-[#B22222]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Jaspe",
+          "text": "Sangre de Yeshua, proteccion, convenio, Espiritu Santo."
+        },
+        {
+          "label": "Color",
+          "title": "Rojo Carmesi / Escarlata",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Leon",
+          "text": "Realeza, autoridad y gobierno. El que va al frente, el primero en marchar y en la guerra."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Alef (Alef)",
+          "text": "Primera letra del alefato. Valor: 1. Buey/Lider/Primero. El silencio creador. Dios que es el Primero."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Yehudah — 'Alabanza / El que alaba a Dios'",
+          "text": "Contiene el tetragrama mas una Dalet (puerta). Gn 29:35."
+        }
+      ]
+    },
+    "Abril": {
+      "Mes": "2DO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
+      "Calend1": "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
+      "description": "Description Abril",
+      "color": "bg-[#0F52BA]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Zafiro",
+          "text": "Los Mandamientos de Dios, autoridad real, trono divino de zafiro."
+        },
+        {
+          "label": "Color",
+          "title": "Azul Zafiro / Azul Real",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Mandrágora",
+          "text": "Amor filial, fertilidad y primogenitura buscada. Reuben la recogió para su madre Lea."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Bet",
+          "text": "Segunda letra. Valor: 2. Casa/Hogar. Cerrada por tres lados, abierta al frente."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Reuben",
+          "text": "Ha mirado el Señor mi aflicción. El que es visto y reconocido por Dios."
+        }
+      ]
+    },
+    "Mayo": {
+      "Mes": "3ER MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657380/forex/forex_academy_professional_Mes3ero.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656218/forex/forex_academy_professional_Escudo3eroMesTribuGad.png",
+      "Calend1": "Ensanchamiento. Mes de estremecimiento y juicio divino de los enemigos de los propositos de Dios. Mes de ser favorecidos por Dios.",
+      "description": "Mes de Gad",
+      "color": "bg-[#1E7FAE]",
+      "colorHover": "hover:bg-[#155E82]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Calcedonia / Agata",
+          "text": "Cielo y divinidad. Piedra de multiples capas que habla de los estratos del proposito de Dios. Ap 21:19."
+        },
+        {
+          "label": "Color",
+          "title": "Azul Celeste",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Espada",
+          "text": "El guerrero que corta, ensancha y ejecuta el juicio divino sobre los adversarios del proposito de Dios."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Gimel",
+          "text": "Tercera letra. Valor: 3. Camello en marcha — avanza sin detenerse. La Gimel corre hacia la Dalet para darle bien. Gomel = el que recompensa. El mes del que favorece."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Gad — 'Afortunado / Una tropa viene'",
+          "text": "Gadad = tropa que irrumpe. El favorecido que conquista. Gn 30:11."
+        }
+      ]
+    },
+    "Junio": {
+      "Mes": "4TO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657403/forex/forex_academy_professional_Mes4to.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656340/forex/forex_academy_professional_Escudo4toMesTribuASER.png",
+      "Calend1": "Exito y prosperidad del pueblo de Dios. Mes de dar mucho fruto y uncion territorial.",
+      "description": "Mes de Aser",
+      "color": "bg-[#2F5D1E]",
+      "colorHover": "hover:bg-[#3F7A2A]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Esmeralda",
+          "text": "Pies ungidos, aceite de Dios, consagracion. Verde del aceite sagrado y la productividad divina. Ex 28:17."
+        },
+        {
+          "label": "Color",
+          "title": "Verde Olivo",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Olivo",
+          "text": "El arbol del aceite sagrado. Pies ungidos que consagran cada lugar pisado. Uncion territorial activa. Dt 33:24."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Dalet",
+          "text": "Cuarta letra. Valor: 4. Puerta (Delet) y tambien Dal = pobre/humilde. La Gimel corre a dar bien a la Dalet. El exito de Aser viene con corazon humilde — como David."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Asher — 'Feliz / Dichoso / El que es acepto'",
+          "text": "El mas bienaventurado de las tribus. Gn 30:13; Dt 33:24."
+        }
+      ]
+    },
+    "Julio": {
+      "Mes": "5TO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png",
+      "Calend1": "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas.",
+      "description": "Mes de Neftali",
+      "color": "bg-[#5B3A18]",
+      "colorHover": "hover:bg-[#7A4E24]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Onice",
+          "text": "Capacidad para soportar y juicio. Piedra de los hombros del Sumo Sacerdote que cargaba los nombres de las tribus. Ex 28:9–12."
+        },
+        {
+          "label": "Color",
+          "title": "Marmolizada / Bronce",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Cierva",
+          "text": "Velocidad, agilidad y libertad en la revelacion. 'Neftali, cierva suelta' — recibe la revelacion y la transmite rapidamente. Gn 49:21."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "He",
+          "text": "Quinta letra. Valor: 5. Ventana / Aliento de Dios. La letra añadida a Abram y Sarai al transformarlos. Hine = 'He aqui' — la revelacion repentina. Aparece dos veces en YHWH."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Naphtali — 'Mi lucha / Luchas de Dios he luchado'",
+          "text": "El que obtiene victoria en la lucha con revelacion. Gn 30:8."
+        }
+      ]
+    },
+    "Agosto": {
+      "Mes": "6TO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes6to.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png",
+      "Calend1": "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes.",
+      "description": "Mes de Manases",
+      "color": "bg-[#6B3E1F]",
+      "colorHover": "hover:bg-[#8A522A]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Cornalina",
+          "text": "Humanidad, pan, comunion. El color calido de la tierra fertil y el pan recien horneado. Ap 4:3."
+        },
+        {
+          "label": "Color",
+          "title": "Cafe / Marron / Color Piel",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Grano",
+          "text": "La espiga que se multiplica. El grano de Jose que alimento naciones. La cosecha de la doble porcion. Imagen de multiplicacion."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Vav",
+          "text": "Sexta letra. Valor: 6. Gancho/Clavo/Conector. Al inicio de palabra = 'y'. Conecta dos partes. La Vav magna en Ester señala el juicio sobre los enemigos. El clavo que une — tipo de la cruz de Cristo."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Manases — 'Haciendo olvidar'",
+          "text": "Dios hace olvidar el dolor del pasado y lo reemplaza con multiplicacion. Gn 41:51."
+        }
+      ]
+    },
+    "Septiembre": {
+      "Mes": "7MO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png",
+      "Calend1": "Rompimientos de iniquidades. Mes de juicio y de separacion.",
+      "description": "Mes de Simeon",
+      "color": "bg-[#1E5F1B]",
+      "colorHover": "hover:bg-[#2D7A28]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Crisolito",
+          "text": "Vida eterna, prosperidad, nuevo comienzo. Aquel que rompe iniquidad. Septima piedra de la Nueva Jerusalen. Ap 21:20; Dn 10:6."
+        },
+        {
+          "label": "Color",
+          "title": "Verde Claro",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Balanza",
+          "text": "Simbolo del juicio que pesa, mide y separa lo santo de lo profano. El mes mas denso en fiestas judiciales: Rosh Hashana, Yom Kippur y Sucot."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Zayin",
+          "text": "Septima letra. Valor: 7. Espada/Arma. Una Vav coronada — el mes 7 corona al mes 6. Zakar = recordar. Rosh Hashana = Dia del Recuerdo. La espada que separa con precision."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Shimeon — 'El que escucha / YHWH escucho'",
+          "text": "El juicio comienza por escuchar. El Dios que oye el clamor y responde con justicia. Gn 29:33."
+        }
+      ]
+    },
+    "Octubre": {
+      "Mes": "8VO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png",
+      "Calend1": "Uncion sacerdotal. Mes de union del pueblo de Dios. Mes de la ensenanza de la palabra, sus leyes y sus juicios. Mes de herir los lomos de los enemigos para que nunca se levanten.",
+      "description": "Mes de Levi",
+      "color": "bg-[#9C7600]",
+      "colorHover": "hover:bg-[#B88A00]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Berilo",
+          "text": "Gloria de Dios, naturaleza divina, purificacion, rectitud, oro refinado, majestad sacerdotal. Octava piedra de la Nueva Jerusalen. Dn 10:6; Ap 21:20."
+        },
+        {
+          "label": "Color",
+          "title": "Amarillo / Dorado / Oro",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Menora",
+          "text": "Candelabro de 7 brazos. Responsabilidad exclusiva de Levi. Fuego perpetuo del sacerdocio. La Menora arde en el mes sin fiesta. Nm 8:1–4."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Jet",
+          "text": "Octava letra. Valor: 8. Cerca/Vallado/Espacio protegido. Dos pilares unidos — el portico del Templo. Jai = vida. Jen = gracia. El 8 es el numero de la resurreccion y el nuevo comienzo."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Levi — 'Union / Adherido'",
+          "text": "El que se adhiere a Dios y une al pueblo con el Creador. Gn 29:34."
+        }
+      ]
+    },
+    "Noviembre": {
+      "Mes": "9NO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656721/forex/forex_academy_professional_Escudo9noMesTribuIsacar.png",
+      "Calend1": "Convocar el pueblo del Senor al monte. Mes de entendimiento de los tiempos del Padre. Mes de ofrendas de justicia. Mes de revelacion de los tesoros escondidos y codigos secretos.",
+      "description": "Mes de Isacar",
+      "color": "bg-[#1F4E73]",
+      "colorHover": "hover:bg-[#2B6A99]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Topacio",
+          "text": "Bautismo del agua, Espiritu Santo, nacido de nuevo, tesoro divino, Nueva Jerusalen, victoria en la prueba. Novena piedra de la Nueva Jerusalen. Ap 21:20."
+        },
+        {
+          "label": "Color",
+          "title": "Transparente / Tornasol",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Estrella",
+          "text": "Entendimiento de los tiempos. Los que leen el cielo para saber que debe hacer Israel. Los que descifran los codigos del Reino. 1Cr 12:32."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Tet",
+          "text": "Novena letra. Valor: 9. Serpiente enrollada / Vasija con bien oculto. Tov = bueno (primera letra). El bien que estaba guardado y ahora se revela. La vasija cerrada que contiene el tesoro del mes."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Issachar — 'Hay recompensa / Hombre de salario'",
+          "text": "El que recibe pago por el conocimiento invertido en el entendimiento de los tiempos. Gn 30:18."
+        }
+      ]
+    },
+    "Diciembre": {
+      "Mes": "10MO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png",
+      "Calend1": "Bendicion financiera comercial y empresarial. Mes de autoridad sobre las aguas. Mes de batallas territoriales.",
+      "description": "Mes de Zabulon",
+      "color": "bg-[#006C84]",
+      "colorHover": "hover:bg-[#0088A8]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Crisopasa",
+          "text": "Agua, rio de Dios, sanidad, guerra espiritual, Jehova varon de guerra. Decima piedra de la Nueva Jerusalen. Ap 21:20."
+        },
+        {
+          "label": "Color",
+          "title": "Turqueza / Aguamarina",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Ancla / Barco",
+          "text": "El ancla que se afirma en aguas turbulentas. El barco que navega rutas comerciales. Esperanza segura y firme (He 6:19). Autoridad sobre las aguas del comercio y la guerra."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Yod",
+          "text": "Decima letra. Valor: 10. Mano. La letra mas pequena del alefato — 'Ni una jota pasara' (Mt 5:18). Primera letra de YHWH. ADN de todas las letras. El Diezmo. La mano que trabaja y la mano de Dios que bendice."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Zebulun — 'Morada / Exaltacion'",
+          "text": "El que habita en la abundancia y exalta a Dios con sus negocios. Gn 30:20."
+        }
+      ]
+    },
+    "Enero": {
+      "Mes": "11VO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656888/forex/forex_academy_professional_Escudo11voMesTribuJose.png",
+      "Calend1": "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
+      "description": "Mes de Jose",
+      "color": "bg-[#C75A00]",
+      "colorHover": "hover:bg-[#E06A00]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Jacinto",
+          "text": "Sacrificio de alabanza, adoracion, Bautismo del Espiritu Santo. Fuego de los ejercitos celestiales. Undecima piedra de la Nueva Jerusalen. Ap 21:20; 9:17."
+        },
+        {
+          "label": "Color",
+          "title": "Naranja",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Flor / Sueno",
+          "text": "La rama fructifera junto a la fuente (Gn 49:22) — el almendro que florece en pleno invierno. El sonador cuyo sueno se cumple con exactitud divina. Los dos simbolos de la fructificacion y la vision."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Kaf",
+          "text": "Undecima letra. Valor: 20. Palma de la mano / Cuenco. La palma curvada que se inclina a beber — tema central del mes. Koaj = fuerza/poder. Keter = corona. La Kaf final desciende — la bendicion que baja del cielo a la tierra."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Yosef — 'Que Dios anada / El anadido'",
+          "text": "El que recibe doble porcion. Dios anada sobre lo anadido. Gn 30:24."
+        }
+      ]
+    },
+    "Febrero": {
+      "Mes": "12VO MES",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657542/forex/forex_academy_professional_Mes12vo.jpg",
+      "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png",
+      "Calend1": "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequenos que moran en Sus hombros.",
+      "description": "Mes de Benjamin",
+      "color": "bg-[#6A00A8]",
+      "colorHover": "hover:bg-[#8A00D4]",
+      "tablaLateral": [
+        {
+          "label": "Piedra preciosa",
+          "title": "Amatista",
+          "text": "Majestad, realeza, lo sobrenatural, la realeza de Dios, lo invisible, sacerdote, prendas de sacerdote. Duodecima piedra de la Nueva Jerusalen. Ap 21:20."
+        },
+        {
+          "label": "Color",
+          "title": "Purpura / Violeta",
+          "text": ""
+        }
+      ],
+      "tablaInferior": [
+        {
+          "label": "Emblema / Estandarte",
+          "title": "Lobo",
+          "text": "Guerrero nocturno y estrategico. Arrebata al amanecer y reparte al atardecer. El mas pequeno que resulta el mas feroz. 'Benjamin es lobo arrebatador.' Gn 49:27."
+        },
+        {
+          "label": "Letra del Alefato",
+          "title": "Lamed",
+          "text": "Duodecima letra. Valor: 30. Vara de ensenar / Corazon que aprende. La letra mas alta del alefato — se eleva sobre todas las demas. Lev = corazon. El hijo amado en los hombros del Padre — en el lugar mas alto."
+        },
+        {
+          "label": "Significado del nombre",
+          "title": "Binyamin — 'Hijo de la mano derecha'",
+          "text": "El lugar de honor y poder. El hijo del amor que cierra el ciclo de las doce tribus. Gn 35:18."
+        }
+      ]
+    }
+  }
