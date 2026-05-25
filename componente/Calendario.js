@@ -29,7 +29,8 @@ const Imagenes = {
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
     Calend1: "Redencion, Liberacion y Restitucion. Mes de pasar de muerte a vida. Mes de nueva uncion.",
-    description: "Description Marzo"
+    description: "Description Marzo",
+    color:"bg-black"
   },
   Abril: {
     Mes: "2DO MES",
@@ -37,64 +38,71 @@ const Imagenes = {
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
     Calend1: "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
     description: "Description Abril",
-    tabla: [
+    color:"bg-[#0F52BA]",
+    tablaLateral: [
       {
-        label: "Emblema / Estandarte",
-        title: "Mandrágora",
-        text: "Amor filial, fertilidad y primogenitura buscada. Reuben la recogió para su madre Lea (Gn 30:14).",
+        label: "Piedra preciosa",
+        title: "Zafiro",
+        text: "Los Mandamientos de Dios, autoridad real, trono divino de zafiro.",
       },
       {
         label: "Color",
         title: "Azul Zafiro / Azul Real",
         text: "",
       },
+    ],
+    tablaInferior: [
       {
-        label: "Piedra preciosa",
-        title: "Zafiro",
-        text: "Los Mandamientos de Dios, autoridad real, trono divino de zafiro. Nm 15:38; Ex 24:10.",
+        label: "Emblema / Estandarte",
+        title: "Mandrágora",
+        text: "Amor filial, fertilidad y primogenitura buscada. Reuben la recogió para su madre Lea.",
       },
       {
         label: "Letra del Alefato",
         title: "Bet",
         text: "Segunda letra. Valor: 2. Casa/Hogar. Cerrada por tres lados, abierta al frente.",
       },
-
       {
         label: "Significado del nombre",
-        title: "Reuben — Ha mirado el Señor mi aflicción",
-        text: "Mirad, un hijo. El que es visto y reconocido por Dios. Gn 29:32.",
+        title: "Reuben",
+        text: "Ha mirado el Señor mi aflicción. El que es visto y reconocido por Dios.",
       },
-    ]
+    ],
   },
   Mayo: {
     Mes: "3ER MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657380/forex/forex_academy_professional_Mes3ero.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656218/forex/forex_academy_professional_Escudo3eroMesTribuGad.png",
     Calend1: "Ensanchamiento. Mes de estremecimiento y juicio divino de los enemigos de los propositos de Dios. Mes de ser favorecidos por Dios.",
-    description: "Description Mayo"
+    description: "Description Mayo",
+    color:"bg-black"
   },
   Junio: {
     Mes: "4TO MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657403/forex/forex_academy_professional_Mes4to.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656340/forex/forex_academy_professional_Escudo4toMesTribuASER.png",
     Calend1: "Exito y prosperidad del pueblo de Dios. Mes de dar mucho fruto y uncion territorial.",
-    description: "Description Junio"
+    description: "Description Junio",
+    color:"bg-black"
   },
   Julio: {
     Mes: "5TO MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png",
     description: "Description Julio",
+    color:"bg-black",
     Calend1: "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas."
   },
   Agosto: {
     Mes: "6TO MES",
     image: "",
+    color:"bg-black",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png",
     description: "Description Agosto",
     Calend1: "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes."
   },
   Septiembre: {
+    color:"bg-black",
     Mes: "7MO MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png",
@@ -102,6 +110,7 @@ const Imagenes = {
     Calend1: "Rompimientos de iniquidades. Mes de juicio y de separacion."
   },
   Octubre: {
+    color:"bg-black",
     Mes: "8VO MES",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png",
@@ -110,6 +119,7 @@ const Imagenes = {
   },
   Noviembre: {
     Mes: "9NO MES",
+    color:"bg-black",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656721/forex/forex_academy_professional_Escudo9noMesTribuIsacar.png",
     description: "Description Noviembre",
@@ -117,6 +127,7 @@ const Imagenes = {
   },
   Diciembre: {
     Mes: "10MO MES",
+    color:"bg-black",
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png",
     description: "Description Diciembre",
@@ -127,6 +138,7 @@ const Imagenes = {
     image: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656888/forex/forex_academy_professional_Escudo11voMesTribuJose.png",
     description: "Description Enero",
+    color:"bg-black",
     Calend1: "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
   },
   Febrero: {
@@ -134,6 +146,7 @@ const Imagenes = {
     image: "",
     escudo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png",
     description: "Description Febrero",
+    color:"bg-black",
     Calend1: "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequeños que moran en Sus hombros.",
   },
 }
@@ -481,12 +494,12 @@ export default function ScheduleDemo() {
   return (
     <div>
       <div className="bg-white">
-      <button
+      {/* <button
         onClick={() => SetShowTabletOpt(!showTableOpt)}
         className="rounded-lg bg-black px-4 py-2 text-white hover:bg-gray-700 transition cursor-pointer"
       >
         {showTableOpt ? "Mostrar tabla abajo" : "Mostrar tabla a la derecha"}
-      </button>
+      </button> */}
       </div>
       <CalendarHead />
       <div className="min-h-screen bg-white p-6">
@@ -509,7 +522,8 @@ export default function ScheduleDemo() {
                 <button
                   type="button"
                   onClick={previousMonth}
-                  className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                //  className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                  className={`rounded p-2 text-white cursor-pointer transition hover:opacity-80 ${imagenMesActual["color"]}`}
                 >
                   <ChevronLeftIcon className="h-5 w-5" />
                 </button>
@@ -525,13 +539,16 @@ export default function ScheduleDemo() {
                 <button
                   type="button"
                   onClick={nextMonth}
-                  className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                 //className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                 className={`rounded p-2 text-white cursor-pointer transition hover:opacity-80 ${imagenMesActual["color"]}`}
                 >
                   <ChevronRightIcon className="h-5 w-5" />
                 </button>
               </div>
 
-              <div className="grid grid-cols-7 rounded-t-lg bg-black text-center text-sm font-semibold text-white">
+              <div 
+              className={`grid grid-cols-7 rounded-t-lg text-center text-sm font-semibold text-white ${imagenMesActual["color"]}`}
+               >
                 <div className="py-2">Dom</div>
                 <div className="py-2">Lun</div>
                 <div className="py-2">Mar</div>
@@ -602,24 +619,24 @@ export default function ScheduleDemo() {
             </div>
 
             <aside className="relative rounded-xl border p-4">
-              <h3 className="mb-4 text-lg font-semibold text-gray-800">
+              {/* <h3 className="mb-4 text-lg font-semibold text-gray-800">
                 Actividades del día
-              </h3>
-              {showTableOpt && TablaMes(imagenMesActual?.tabla || [])}
+              </h3> */}
+              {true && TablaMes(imagenMesActual?.tablaLateral || [])}
               <p className="mb-4 text-sm text-gray-500">
                 {format(selectedDay, "EEEE d 'de' MMMM yyyy", { locale: es })}
               </p>
 
-              {actividadesDelDia.length === 0 ? (
+              { false &&actividadesDelDia.length === 0 ? (
                 <div>
-                  <p className="text-sm text-gray-500">
+                  {/* <p className="text-sm text-gray-500">
                     No hay actividades programadas para este día.
-                  </p>
+                  </p> */}
 
                 </div>
               ) : (
                 <ul className="space-y-3">
-                  {actividadesDelDia.map((actividad) => (
+                  {false&&actividadesDelDia.map((actividad) => (
                     <li key={actividad.id} className="rounded-lg border p-3">
                       <h4 className="font-semibold text-gray-800">
                         {actividad.title}
@@ -680,7 +697,7 @@ export default function ScheduleDemo() {
               />
             </aside>
           </div>
-          {!showTableOpt && TablaMes(imagenMesActual?.tabla || [])}
+          {true && TablaMes(imagenMesActual?.tablaInferior || [])}
         </div>
       </div>
     </div>
