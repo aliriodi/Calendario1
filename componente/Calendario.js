@@ -246,7 +246,7 @@ const actividadesMock = [
     image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop',
   },
 ]
-function TablaMes( data, variant = "full" ) {
+function TablaMes(data, variant = "full") {
   const isSide = variant === "side"
 
   return (
@@ -346,7 +346,26 @@ export default function ScheduleDemo() {
       .toUpperCase() +
     format(firstDayCurrentMonth, 'MMMM', { locale: es }).slice(1)
 
+ // esto es para colocar los backgroun y sabe en que
+ //mes estamos de alli me traigo propiedades 
   const imagenMesActual = Imagenes[nombreMesActual]
+  const nombreMesSeleccionado =
+  format(selectedDay, "MMMM", { locale: es }).charAt(0).toUpperCase() +
+  format(selectedDay, "MMMM", { locale: es }).slice(1)
+
+const imagenMesSeleccionado = Imagenes[nombreMesSeleccionado]
+
+const colorActividadSeleccionada =
+  imagenMesSeleccionado?.color ||
+  imagenMesActual?.color ||
+  "bg-black"
+  function getColorByDate(date) {
+    const nombreMes =
+      format(date, "MMMM", { locale: es }).charAt(0).toUpperCase() +
+      format(date, "MMMM", { locale: es }).slice(1)
+  
+    return Imagenes[nombreMes]?.color || "bg-black"
+  }
 
   const userTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'
@@ -372,17 +391,19 @@ export default function ScheduleDemo() {
   function previousMonth() {
     const firstDayPreviousMonth = add(firstDayCurrentMonth, { months: -1 })
     setCurrentMonth(format(firstDayPreviousMonth, 'MMM-yyyy'))
+    setSelectedDay(firstDayPreviousMonth)
   }
 
   function nextMonth() {
     const firstDayNextMonth = add(firstDayCurrentMonth, { months: 1 })
     setCurrentMonth(format(firstDayNextMonth, 'MMM-yyyy'))
+    setSelectedDay(firstDayNextMonth)
   }
 
   return (
     <div>
       <div className="bg-white">
-      {/* <button
+        {/* <button
         onClick={() => SetShowTabletOpt(!showTableOpt)}
         className="rounded-lg bg-black px-4 py-2 text-white hover:bg-gray-700 transition cursor-pointer"
       >
@@ -410,7 +431,7 @@ export default function ScheduleDemo() {
                 <button
                   type="button"
                   onClick={previousMonth}
-                //  className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                  //  className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
                   className={`rounded p-2 text-white cursor-pointer transition hover:opacity-80 ${imagenMesActual["color"]}`}
                 >
                   <ChevronLeftIcon className="h-5 w-5" />
@@ -427,102 +448,118 @@ export default function ScheduleDemo() {
                 <button
                   type="button"
                   onClick={nextMonth}
-                 //className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
-                 className={`rounded p-2 text-white cursor-pointer transition hover:opacity-80 ${imagenMesActual["color"]}`}
+                  //className="rounded bg-black p-2 text-white hover:bg-gray-500 cursor-pointer transition"
+                  className={`rounded p-2 text-white cursor-pointer transition hover:opacity-80 ${imagenMesActual["color"]}`}
                 >
                   <ChevronRightIcon className="h-5 w-5" />
                 </button>
               </div>
 
               <div
-  className={`grid grid-cols-7 rounded-t-lg text-center text-sm font-semibold text-white ${imagenMesActual["color"]}`}
->
-  {["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"].map((dia) => (
-    <div key={dia} className="h-10 flex items-center justify-center">
-      {dia}
-    </div>
-  ))}
-</div>
+                className={`grid grid-cols-7 rounded-t-lg text-center text-sm font-semibold text-white ${imagenMesActual["color"]}`}
+              >
+                {["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"].map((dia) => (
+                  <div key={dia} className="h-10 flex items-center justify-center">
+                    {dia}
+                  </div>
+                ))}
+              </div>
 
-<div className="relative h-[390px] border border-t-0 overflow-hidden rounded-b-lg">
-  <div
-    className="absolute inset-0 pointer-events-none"
-    style={{
-      backgroundImage: `url(${imagenMesActual["image"]})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      opacity: 0.62,
-    }}
-  />
+              <div className="relative h-[390px] border border-t-0 overflow-hidden rounded-b-lg">
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    backgroundImage: `url(${imagenMesActual["image"]})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    opacity: 0.62,
+                  }}
+                />
 
-  <div className="absolute inset-0 bg-white/55 pointer-events-none" />
+                <div className="absolute inset-0 bg-white/55 pointer-events-none" />
 
-  <div className="relative z-10 grid h-full grid-cols-7 grid-rows-6 gap-1 p-3">
-    {days.map((day, dayIdx) => {
-      const dayKey = format(day, "yyyy-MM-dd")
+                <div className="relative z-10 grid h-full grid-cols-7 grid-rows-6 gap-1 p-3">
+                  {days.map((day, dayIdx) => {
+                    const dayKey = format(day, "yyyy-MM-dd")
 
-      const tieneActividad = actividades.some(
-        (actividad) => actividad.localDateKey === dayKey
-      )
+                    const tieneActividad = actividades.some(
+                      (actividad) => actividad.localDateKey === dayKey
+                        )
+                        const colorActividadDelDia = getColorByDate(day)
 
-      return (
-        <div
-          key={day.toString()}
-          className={classNames(
-            dayIdx === 0 && colStartClasses[getDay(day)],
-            "flex items-center justify-center"
-          )}
-        >
-          <button
-            type="button"
-            onClick={() => setSelectedDay(day)}
-            className={classNames(
-              isSameDay(day, selectedDay)
-                ? "bg-black text-white"
-                : "text-gray-800 hover:bg-gray-200",
-              !isSameMonth(day, firstDayCurrentMonth) && "text-gray-400",
-              isToday(day) && !isSameDay(day, selectedDay) && "font-bold",
-              tieneActividad &&
-                !isSameDay(day, selectedDay) &&
-                "bg-yellow-300 text-black",
-              "flex h-11 w-11 items-center justify-center rounded-full cursor-pointer transition"
-            )}
-          >
-            <time dateTime={format(day, "yyyy-MM-dd")}>
-              {format(day, "d")}
-            </time>
-          </button>
-        </div>
-      )
-    })}
-  </div>
-</div>
+                    return (
+                      <div
+                        key={day.toString()}
+                        className={classNames(
+                          dayIdx === 0 && colStartClasses[getDay(day)],
+                          "flex items-center justify-center"
+                        )}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => setSelectedDay(day)}
+                          className={classNames(
+                            isSameDay(day, selectedDay)
+                              ? "bg-black text-white"
+                              : "text-gray-800 hover:bg-gray-200",
+                            !isSameMonth(day, firstDayCurrentMonth) && "text-gray-400",
+                            isToday(day) && !isSameDay(day, selectedDay) && "font-bold",
+                            tieneActividad &&
+                            !isSameDay(day, selectedDay) &&
+                            `${colorActividadDelDia} text-white hover:opacity-80`,
+                            "flex h-11 w-11 items-center justify-center rounded-full cursor-pointer transition"
+                          )}
+                        >
+                          <time dateTime={format(day, "yyyy-MM-dd")}>
+                            {format(day, "d")}
+                          </time>
+                        </button>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
             </div>
 
             <aside className="relative flex min-h-[380px] flex-col rounded-xl border p-4">
-  <div>
-    {TablaMes(imagenMesActual?.tablaLateral || [],"side") }
+              <div>
+                {TablaMes(imagenMesActual?.tablaLateral || [], "side")}
 
-    <p className="mt-4 mb-4 text-sm text-gray-500">
-      {format(selectedDay, "EEEE d 'de' MMMM yyyy", { locale: es })}
-    </p>
-  </div>
+                <p className="mt-4 mb-4 text-sm text-gray-500">
+                  {format(selectedDay, "EEEE d 'de' MMMM yyyy", { locale: es })}
+                </p>
+                {actividadesDelDia.length > 0 && (
+                  <div className="mt-3 flex flex-col gap-2">
+                    {actividadesDelDia.map((actividad) => (
+                      <div
+                        key={actividad.id}
+                        className={`
+          rounded-lg px-3 py-2 text-center text-sm font-bold uppercase tracking-wide text-white
+          ${imagenMesActual["color"]}
+        `}
+                      >
+                        {actividad.title}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-  <div className="mt-auto flex items-end justify-between pt-6">
-    {/* <img
+              <div className="mt-auto flex items-end justify-between pt-6">
+                {/* <img
       src={imagenMesActual.escudo}
       alt="Escudo del mes"
       className="h-[90px] w-[90px] object-contain"
     /> */}
-<div  className="h-[90px] w-[90px] object-contain">
-    <EscudoModal
-      imagenMesActual={imagenMesActual.escudo}
-      mensaje={imagenMesActual.description}
-     
-    /></div>
-  </div>
-</aside>
+                <div className="h-[90px] w-[90px] object-contain">
+                  <EscudoModal
+                    imagenMesActual={imagenMesActual.escudo}
+                    mensaje={imagenMesActual.description}
+
+                  /></div>
+              </div>
+            </aside>
           </div>
           {true && TablaMes(imagenMesActual?.tablaInferior || [])}
         </div>
