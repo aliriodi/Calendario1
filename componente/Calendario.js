@@ -507,7 +507,7 @@ const colorActividadSeleccionada =
                             isToday(day) && !isSameDay(day, selectedDay) && "font-bold",
                             tieneActividad &&
                             !isSameDay(day, selectedDay) &&
-                            `${colorActividadDelDia} text-white hover:opacity-80`,
+                            `${colorActividadDelDia} text-white hover:opacity-80 hover:text-gray-800`,
                             "flex h-11 w-11 items-center justify-center rounded-full cursor-pointer transition"
                           )}
                         >
