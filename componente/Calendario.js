@@ -556,7 +556,8 @@ const colorActividadSeleccionada =
                   <EscudoModal
                     imagenMesActual={imagenMesActual.escudo}
                     mensaje={imagenMesActual.description}
-
+                    color={imagenMesActual.color}
+                    data={imagenMesActual}
                   /></div>
               </div>
             </aside>

@@ -1,94 +1,192 @@
 import { useState } from "react";
 
-export default function EscudoModal({ imagenMesActual, mensaje }) {
+export default function EscudoModal({ imagenMesActual, mensaje, data }) {
   const [modalAbierto, setModalAbierto] = useState(false);
-
+  function getHexFromTailwindBg(twColor) {
+    const match = twColor?.match(/\[#(.+?)\]/)
+    return match ? `#${match[1]}` : "#8B0000"
+  }
+  const colorMes = getHexFromTailwindBg(data?.color)
   return (
     <>
-      {/* Botón que abre el modal */}
       <button
         type="button"
         onClick={() => setModalAbierto(true)}
-        className="hidden lg:block"
-        style={{
-          position: "absolute",
-          bottom: "10px",
-          left: "10px",
-          width: "90px",
-          height: "90px",
-          zIndex: 15,
-          background: "transparent",
-          border: "none",
-          padding: 0,
-          cursor: "pointer",
-        }}
+        className="hidden lg:block absolute bottom-[10px] left-[10px] z-20 h-[90px] w-[90px] cursor-pointer border-0 bg-transparent p-0"
       >
         <img
           src={imagenMesActual}
           alt="Escudo"
-          style={{
-            width: "90px",
-            height: "90px",
-            objectFit: "contain",
-          }}
+          className="h-[90px] w-[90px] object-contain drop-shadow-xl"
         />
       </button>
 
-      {/* Modal */}
       {modalAbierto && (
         <div
           onClick={() => setModalAbierto(false)}
-          style={{
-            position: "fixed",
-            inset: 0,
-            background: "rgba(0,0,0,0.65)",
-            zIndex: 9999,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "20px",
-          }}
+          className="fixed inset-0 z-[9999] flex items-start justify-center overflow-y-auto bg-black/70 px-4 py-10"
         >
+          {/* <div
+            onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-5xl rounded-2xl border border-white/15 bg-gradient-to-br from-black/90 via-black/80 to-black/70 p-7 text-white shadow-2xl"
+          > */}
           <div
             onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-5xl rounded-2xl p-7 text-white shadow-2xl"
             style={{
-              position: "relative",
-              background: "linear-gradient(135deg, rgba(90,51,38,0.95), rgba(122,90,31,0.95), rgba(47,62,42,0.95))",
-              border: "1px solid rgba(255,215,0,0.2)",
-              color: "white",
-              borderRadius: "16px",
-              padding: "28px",
-              maxWidth: "420px",
-              width: "100%",
-              boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
-              border: "1px solid rgba(255,255,255,0.15)",
+              background:
+                "linear-gradient(135deg, rgba(0,0,0,0.94), rgba(0,0,0,0.78))",
+            
+              border: `2px solid ${colorMes}`,
+            
+              boxShadow: `
+                0 0 0 1px rgba(255,255,255,0.10),
+                0 25px 80px rgba(0,0,0,0.65),
+                0 0 30px ${colorMes}AA
+              `,
             }}
+           
+            // style={{
+            //   background:
+            //     "linear-gradient(135deg, rgba(0,0,0,0.94), rgba(0,0,0,0.78))",
+            
+            //   border: `2px solid ${colorMes}`,
+            
+            //   boxShadow: `
+            //     0 0 0 1px rgba(255,255,255,0.10),
+            //     0 25px 80px rgba(0,0,0,0.65),
+            //     0 0 30px ${colorMes}55
+            //   `,
+            // }}
+           
+            // style={{
+            //   background:
+            //     "linear-gradient(135deg, rgba(0,0,0,0.94), rgba(0,0,0,0.78))",
+            //   border: `2px solid ${colorMes}`,
+            //   boxShadow: `0 0 0 1px rgba(255,255,255,0.12), 0 25px 80px rgba(0,0,0,0.65), 0 0 40px ${colorMes}66`,
+            // }}
           >
-            {/* Cerrar */}
+            <div
+              className="absolute left-0 top-0 h-2 w-full rounded-t-2xl"
+              style={{ background: colorMes }}
+            />
             <button
               type="button"
               onClick={() => setModalAbierto(false)}
-              style={{
-                position: "absolute",
-                top: "12px",
-                right: "14px",
-                background: "transparent",
-                border: "none",
-                color: "white",
-                fontSize: "24px",
-                cursor: "pointer",
-              }}
+              className="absolute right-4 top-3 text-3xl text-white hover:opacity-70"
             >
               ×
             </button>
 
-            <h2 style={{ marginBottom: "12px", fontSize: "22px" }}>
-              {imagenMesActual.nombre || ""}
-            </h2>
+            <div className="mb-6 flex items-center gap-4">
+              <img
+                src={imagenMesActual}
+                alt="Escudo"
+                className="h-20 w-20 object-contain"
+              />
 
-            <p style={{ lineHeight: "1.6", fontSize: "16px" }}>
-              {mensaje}
-            </p>
+              <div>
+                <h2 className="text-2xl font-bold">
+                  {data?.Mes || "Detalle del mes"}
+                </h2>
+
+                {/* {mensaje && (
+                  <p className="mt-1 text-sm text-white/80">
+                    {mensaje}
+                  </p>
+                )} */}
+              </div>
+            </div>
+
+            {data?.modal && (
+              <div className="space-y-7 text-sm">
+                <section
+                  className="rounded-xl border bg-white/10 p-5"
+                  style={{ borderColor: `${colorMes}80` }}
+                >
+                  {/* <section className="rounded-xl border border-white/10 bg-white/10 p-5"> */}
+                  <h3 className="mb-4 text-xs font-bold uppercase tracking-wide text-yellow-200">
+                    Acontecimientos bíblicos clave
+                  </h3>
+
+                  <div className="space-y-2">
+                    {data.modal.acontecimientos?.map((item, index) => (
+                      <div
+                        key={index}
+                        className="grid grid-cols-[110px_1fr] gap-4 border-b border-white/10 pb-2 last:border-b-0"
+                      >
+                        <span className="font-bold text-yellow-200">
+                          {item.referencia}
+                        </span>
+
+                        <p className="leading-relaxed text-white/90">
+                          {item.texto}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                <section
+                  className="rounded-xl border bg-white/10 p-5"
+                  style={{ borderColor: `${colorMes}80` }}
+                >
+                {/* <section className="rounded-xl border border-white/10 bg-white/10 p-5"> */}
+                  <h3 className="mb-4 text-xs font-bold uppercase tracking-wide text-yellow-200">
+                    Características de la tribu
+                  </h3>
+
+                  <ul className="space-y-2">
+                    {data.modal.caracteristicas?.map((item, index) => (
+                      <li key={index} className="leading-relaxed text-white/90">
+                        • {item}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+
+                <section
+                  className="rounded-xl bg-black/35 p-5"
+                  style={{ borderLeft: `5px solid ${colorMes}` }}
+                >
+                  {/* <section className="rounded-xl border-l-4 border-yellow-300 bg-black/35 p-5"> */}
+                  <h3 className="mb-3 text-xs font-bold uppercase tracking-wide text-yellow-200">
+                    Instrucción profética
+                  </h3>
+
+                  <p className="leading-relaxed text-white/95">
+                    {data.modal.instruccion}
+                  </p>
+                </section>
+
+                <section>
+                  <h3 className="mb-4 text-xs font-bold uppercase tracking-wide text-yellow-200">
+                    Versículos clave
+                  </h3>
+                  {/* <section
+                  className="rounded-xl border bg-white/10 p-5"
+                  style={{ borderColor: `${colorMes}80` }}
+                > */}
+                  <div className="space-y-3">
+                    {data.modal.versiculos?.map((item, index) => (
+                      <div
+                        key={index}
+                        className="rounded-xl border border-white/10 bg-white/10 p-4"
+                        style={{ borderColor: `${colorMes}80` }}
+                      >
+                        <p className="italic leading-relaxed text-white/90">
+                          "{item.texto}"
+                        </p>
+
+                        <p className="mt-3 text-right font-bold text-yellow-200">
+                          {item.referencia}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </div>
+            )}
           </div>
         </div>
       )}

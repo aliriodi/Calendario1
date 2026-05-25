@@ -35,7 +35,82 @@
           "title": "Yehudah — 'Alabanza / El que alaba a Dios'",
           "text": "Contiene el tetragrama mas una Dalet (puerta). Gn 29:35."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 29:35",
+            "texto": "Nacimiento de Juda — Lea alaba al Señor."
+          },
+          {
+            "referencia": "Ex 12:2",
+            "texto": "Dios establece Nisan como primer mes del año religioso."
+          },
+          {
+            "referencia": "Ex 12:3-14",
+            "texto": "Institucion de la Pascua: sangre del Cordero en los postes. Paso de muerte a vida."
+          },
+          {
+            "referencia": "Ex 12:3; Mt 21:1-9",
+            "texto": "Dia 10: Separacion del cordero / Entrada triunfal de Jesus a Jerusalen."
+          },
+          {
+            "referencia": "Jos 4:19; 5:2-12",
+            "texto": "Israel cruza el Jordan (dia 10), circuncision en Gilgal, Pascua en Canaan."
+          },
+          {
+            "referencia": "Ex 40:1-2,9-11",
+            "texto": "Dia 1: Ereccion y uncion del Tabernaculo. La Gloria llena la morada."
+          },
+          {
+            "referencia": "Ex 12:37,41; Nm 33:3",
+            "texto": "Dia 15: El Gran Exodo — 430 anos exactos de esclavitud."
+          },
+          {
+            "referencia": "Lv 23:6-8",
+            "texto": "Dias 15-21: Fiesta de los Panes sin Levadura."
+          },
+          {
+            "referencia": "Lv 23:9-14; 1Co15:20",
+            "texto": "Dia 16: Ofrenda de las Primicias (tipo de la resurreccion de Cristo)."
+          },
+          {
+            "referencia": "Ex 14:21-31",
+            "texto": "Dia 21: Cruce del Mar Rojo — destruccion del ejercito egipcio."
+          },
+          {
+            "referencia": "2Cr 29:17",
+            "texto": "Purificacion del Templo por Ezequias (dias 1 al 16)."
+          },
+          {
+            "referencia": "2R 23:21-23",
+            "texto": "Pascua de Josias — la mayor desde los jueces."
+          },
+          {
+            "referencia": "2S 2:1-4",
+            "texto": "David ungido rey en Hebron por Juda."
+          }
+        ],
+        "caracteristicas": [
+          "Liderazgo de vanguardia: va primero en la marcha, las ofrendas y la guerra.",
+          "Alabanza guerrera: la adoración abre el camino en la batalla.",
+          "Espíritu del León: valentía, autoridad real.",
+          "Gobierno profetico: el cetro legisla. Juda es el baculo de mando de Dios (Sal 60:7; Gn 49:10).",
+          "Fidelidad al pacto: 20 reyes de la casa de David — dinastia intacta 400 anos (2S 7:12-16).",
+          "Intercesion que libera: Juda como fiador de Benjamin — ofrece su vida por el hermano (Gn 44:18-34)."
+        ],
+        "instruccion": "Despierta a la alabanza a Elohim como arma de guerra. Despierta al poder de los sonidos para gobernar. Despierta al gobierno de Yeshua establecido en las Escrituras — la obediencia te cubre y protege. Despierta a la capacidad de LEGISLAR. Declara restitucion sobre todo lo que el enemigo robo en el ciclo anterior. Pide nueva uncion sobre cada area de tu vida como Moises ungio el Tabernaculo el dia 1 del mes 1.",
+        "versiculos": [
+          {
+            "texto": "'El Espiritu del Senor esta sobre mi, por cuanto me ha ungido para dar buenas nuevas a los pobres; me ha enviado a sanar a los quebrantados de corazon; a pregonar libertad a los cautivos... a poner en libertad a los oprimidos.'",
+            "referencia": "Is 61:1-2 / Lc 4:18-19"
+          },
+          {
+            "texto": "'Levantate, resplandece; porque ha venido tu luz, y la gloria de Jehova ha nacido sobre ti.'",
+            "referencia": "Is 60:1"
+          }
+        ]
+      }
     },
     "Abril": {
       "Mes": "2DO MES",
