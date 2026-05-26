@@ -114,7 +114,8 @@
     },
     "Abril": {
       "Mes": "2DO MES",
-      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
+      "image":"https://res.cloudinary.com/dvy9qircy/image/upload/v1779756200/forex/forex_academy_professional_2MesChatgpt.jpg",
+      "image-original": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
       "Calend1": "Resplandor de la gloria de Dios. Mes de fundamento y edificacion de la familia del Senor. Mes de revelacion del Reino de Dios.",
       "description": "Description Abril",
@@ -147,7 +148,65 @@
           "title": "Reuben",
           "text": "Ha mirado el Señor mi aflicción. El que es visto y reconocido por Dios."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "1R 6:1,37",
+            "texto": "Inicio y terminación de la construcción del Templo de Salomón en el mes de Ziv — el mayor acto de edificación de la Casa del Señor."
+          },
+          {
+            "referencia": "Nm 9:6-14",
+            "texto": "Pascua del segundo mes: la gracia que no excluye a quien no pudo guardarla en el mes 1."
+          },
+          {
+            "referencia": "Nm 10:11-12",
+            "texto": "Israel sale del Sinaí en marcha hacia Canaán — el pueblo avanza hacia el destino."
+          },
+          {
+            "referencia": "Nm 1:20-21",
+            "texto": "Primer censo: Rubén encabeza la lista como primogénito — 46.500 hombres."
+          },
+          {
+            "referencia": "Gn 30:14",
+            "texto": "Rubén recoge mandrágoras para su madre Lea — amor filial que define el emblema de la tribu."
+          },
+          {
+            "referencia": "Gn 37:21-22,29-30",
+            "texto": "Rubén salva la vida de José — propone echarlo al pozo en vez de matarlo."
+          },
+          {
+            "referencia": "2Cr 30:2-13,27",
+            "texto": "Ezequías celebra la Pascua del mes 2 cuando el pueblo no pudo santificarse a tiempo."
+          },
+          {
+            "referencia": "Nm 32:1-5",
+            "texto": "Rubén y Gad piden la tierra al este del Jordán — fundamento y edificación de sus familias."
+          }
+        ],
+      
+        "caracteristicas": [
+          "Primogenitura redimida: lleva la dignidad del primer lugar aunque la perdió por un momento (Gn 49:3).",
+          "Protector: cuando los hermanos quieren matar a José, Rubén lo defiende (Gn 37:21-22).",
+          "Amor filial: recoge mandrágoras para su madre Lea — el gesto del hijo mayor que honra en el conflicto (Gn 30:14).",
+          "Fundador de casa: la Bet es la casa. Rubén funda familia y establece bases en la tierra asignada (Nm 32).",
+          "Primogenitura restaurada en Yeshúa: lo perdido por Rubén es restaurado en el Primogénito de toda creación (Col 1:15).",
+          "Visionario de fe: ve antes de que se manifieste — Rubén vio que debía rescatar a José (Gn 37:21)."
+        ],
+      
+        "instruccion": "Despierta al resplandor — Ziv — de la gloria de Dios sobre tu familia. Este mes edifica la Casa del Señor, relaciones restauradas, generaciones alineadas, el hogar como primer ministerio. Recibe la revelación de la arquitectura del Reino de Dios. Ora y cubre a los primogénitos — biológicos y espirituales — de tu casa. Nadie queda fuera del plan de Dios — como la Pascua del mes 2, la gracia alcanza a todos.",
+      
+        "versiculos": [
+          {
+            "texto": "'Aconteció en el año cuatrocientos ochenta... en el mes de Ziv, que es el mes segundo, que él comenzó a edificar la casa del Señor.'",
+            "referencia": "1R 6:1"
+          },
+          {
+            "texto": "'Si el Señor no edifica la casa, en vano trabajan los que la edifican.'",
+            "referencia": "Sal 127:1"
+          }
+        ]
+      }
     },
     "Mayo": {
       "Mes": "3ER MES",
@@ -185,7 +244,65 @@
           "title": "Gad — 'Afortunado / Una tropa viene'",
           "text": "Gadad = tropa que irrumpe. El favorecido que conquista. Gn 30:11."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Ex 19:1; 19:16-20",
+            "texto": "Israel llega al Sinaí en el tercer mes. Shavuot (día 6): truenos, relámpagos, fuego — el Sinaí se estremece."
+          },
+          {
+            "referencia": "Ex 20:1-17",
+            "texto": "Entrega de la Torah en el Sinaí — el mayor ensanchamiento del conocimiento divino."
+          },
+          {
+            "referencia": "Hch 2:1-4",
+            "texto": "Pentecostés: derramamiento del Espíritu Santo con viento y fuego. 3.000 almas convertidas."
+          },
+          {
+            "referencia": "Lv 23:15-22",
+            "texto": "Shavuot — Fiesta de las Semanas: ofrenda de los dos panes de trigo, primicias de la cosecha."
+          },
+          {
+            "referencia": "Dt 33:20-21",
+            "texto": "'Bendito aquel que hizo ensanchar a Gad!' — decreto del ensanchamiento divino sobre el mes."
+          },
+          {
+            "referencia": "Nm 32:1-5",
+            "texto": "Gad y Rubén piden la tierra al este del Jordán — ensanchamiento territorial."
+          },
+          {
+            "referencia": "Jue 7:1-25",
+            "texto": "Gedeón (de Manasés) derrota a Madián con 300 hombres — el estremecimiento sobre los enemigos."
+          },
+          {
+            "referencia": "Est 4:16; 8:9-11",
+            "texto": "Ester ayuna tres días — el decreto del enemigo se revierte; los favorecidos irrumpen."
+          }
+        ],
+      
+        "caracteristicas": [
+          "El afortunado que irrumpe: Gad = 'afortunado' y 'tropa que irrumpe'. Los favorecidos no esperan pasivamente (Gn 30:11; 49:19).",
+          "Resistencia indestructible: 'Ejército lo acometerá, mas él acometerá al fin' — siempre contraataca y vence (Gn 49:19).",
+          "Leona que desgarra: 'Como leona se agazapó, desgarró brazo y cabeza' — guerrero que espera y ejecuta con precisión (Dt 33:20).",
+          "Primicia para sí mismo: Gad proveyó la primicia para sí antes de dar a otros — da de las primicias y lo demás se multiplica (Dt 33:21).",
+          "Legislador en la tierra: presente cuando se ejecutan los decretos de YHWH — su porción está en el gobierno del Reino (Dt 33:21).",
+          "Guerrero de vanguardia: cruzaron armados delante de sus hermanos hasta que toda la tierra fue conquistada (Nm 32:17)."
+        ],
+      
+        "instruccion": "Despierta a la conciencia del favor de Dios — eres el 'afortunado' de este mes. Declara ensanchamiento sobre tu mente, visión, finanzas, relaciones y territorio espiritual. El cielo irrumpe con fuego sobre cada situación que se ha resistido al propósito de Dios — los enemigos del propósito serán sacudidos. Avanza como la Guímel, sin detenerte. Da tus primicias en Shavuot — la semilla del mes del favor tiene recompensa multiplicada.",
+      
+        "versiculos": [
+          {
+            "texto": "'Bendito aquel que hizo ensanchar a Gad! Como leona se agazapó, y desgarró brazo y cabeza. Proveyó la primicia para sí, pues allí le fue guardada la porción del Legislador.'",
+            "referencia": "Dt 33:20-21"
+          },
+          {
+            "texto": "'De repente vino del cielo un estruendo como de un viento recio... y se les aparecieron lenguas repartidas, como de fuego, asentándose sobre cada uno.'",
+            "referencia": "Hch 2:2-3"
+          }
+        ]
+      }
     },
     "Junio": {
       "Mes": "4TO MES",
@@ -223,7 +340,65 @@
           "title": "Asher — 'Feliz / Dichoso / El que es acepto'",
           "text": "El mas bienaventurado de las tribus. Gn 30:13; Dt 33:24."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Dt 33:24",
+            "texto": "'Sea acepto ante sus hermanos Aser, y bane en aceite su pie' — decreto de prosperidad y unción territorial."
+          },
+          {
+            "referencia": "Dt 33:25",
+            "texto": "'De hierro y de bronce sea tu calzado, y tu vigor dure como tus días' — fortaleza que no caduca."
+          },
+          {
+            "referencia": "Gn 49:20",
+            "texto": "'De Aser, el pan será sustancioso' — la prosperidad de Aser alimenta a las demás tribus."
+          },
+          {
+            "referencia": "Lc 2:36-38",
+            "texto": "Ana profetisa, de Aser, 84 años en el Templo en ayuno y oración. Primera en reconocer al Mesías."
+          },
+          {
+            "referencia": "1R 18:19-40",
+            "texto": "Elías en el Carmelo — territorio de Aser: el fuego de Dios vence a los profetas de Baal."
+          },
+          {
+            "referencia": "1R 4:16",
+            "texto": "Salomón nombra prefecto en Aser — señal de prosperidad territorial administrada."
+          },
+          {
+            "referencia": "Jer 39:2; 52:6-7",
+            "texto": "Día 17 de Tamuz: brecha en las murallas de Jerusalén. Inicio del período de oración intercesora por Jerusalén."
+          },
+          {
+            "referencia": "Is 52:7",
+            "texto": "'¡Cuán hermosos son sobre los montes los pies del que trae buenas nuevas!' — los pies ungidos de Aser."
+          }
+        ],
+      
+        "caracteristicas": [
+          "El más dichoso: 'Muy dichoso Aser' — la prosperidad es natural, fruto del árbol plantado en buena tierra (Gn 49:20).",
+          "Acepto ante sus hermanos: el exitoso que no genera envidia sino aceptación — el éxito que une (Dt 33:24).",
+          "Pies ungidos: 'Bane en aceite su pie' — cada lugar pisado queda ungido y consagrado al Señor (Dt 33:24).",
+          "Calzado de hierro y bronce: unción y fortaleza de guerra combinadas — el prosperado es también el guerrero (Dt 33:25).",
+          "Vigor que dura: la fortaleza no disminuye con la edad. Ana a los 84 años en plena unción (Dt 33:25; Lc 2:36).",
+          "Sustento de los demás: 'El pan será sustancioso' — la prosperidad de Aser alimenta a la familia del Señor (Gn 49:20)."
+        ],
+      
+        "instruccion": "Este mes unge tus pies con aceite de olivo y camina sobre tu territorio declarándolo consagrado al Señor. Declara que cada lugar que pisen tus pies es tierra del Reino. Despierta a la sensibilidad por las necesidades del prójimo — la prosperidad de Aser alimenta a otros. Ora por Jerusalén en el mes de Tamuz — especialmente el día 17: intercede por la restauración de las murallas espirituales del pueblo de Dios.",
+      
+        "versiculos": [
+          {
+            "texto": "'Sea acepto ante sus hermanos Aser, y bane en aceite su pie. De hierro y de bronce sea tu calzado, y tu vigor dure como tus días.'",
+            "referencia": "Dt 33:24-25"
+          },
+          {
+            "texto": "'¡Cuán hermosos son sobre los montes los pies del que trae alegres nuevas, del que anuncia la paz, del que trae nuevas del bien, del que publica salvación, del que dice a Sion: Tu Dios reina!'",
+            "referencia": "Is 52:7"
+          }
+        ]
+      }
     },
     "Julio": {
       "Mes": "5TO MES",
@@ -261,11 +436,69 @@
           "title": "Naphtali — 'Mi lucha / Luchas de Dios he luchado'",
           "text": "El que obtiene victoria en la lucha con revelacion. Gn 30:8."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 49:21",
+            "texto": "'Neftalí, cierva suelta, que pronuncia dichos hermosos' — velocidad en la revelación y belleza en la transmisión profética."
+          },
+          {
+            "referencia": "Dt 33:23",
+            "texto": "'Saciado de favores y colmado de la bendición de YHWH; poseerá el mar y el sur.'"
+          },
+          {
+            "referencia": "Jue 4:6,10; 5:18",
+            "texto": "Débora y Barac — victoria sobre Sísara en territorio de Neftalí con sabiduría estratégica profética."
+          },
+          {
+            "referencia": "Jue 5:18",
+            "texto": "'Neftalí arriesgó su vida en los lugares altos del campo' — ocupa los puntos de visión estratégica."
+          },
+          {
+            "referencia": "Mt 4:13-16; Is 9:1-2",
+            "texto": "Jesús inicia su ministerio en Capernaúm — tierra de Neftalí: 'El pueblo en tinieblas vio gran luz.'"
+          },
+          {
+            "referencia": "2R 25:8-9",
+            "texto": "9 de Av: destrucción del Primer Templo por Nabucodonosor — el día más oscuro del año hebreo."
+          },
+          {
+            "referencia": "Nm 13:25-14:34",
+            "texto": "Los espías dan el mal informe en Av — 40 años de desierto decretados por falta de revelación estratégica."
+          },
+          {
+            "referencia": "Ex 28:9-12",
+            "texto": "Las dos piedras de ónice en los hombros del efod cargaban los nombres de las doce tribus — Neftalí cargado en intercesión sacerdotal."
+          }
+        ],
+      
+        "caracteristicas": [
+          "Cierva suelta: no camina, corre. La revelación que recibe la transmite con velocidad y urgencia (Gn 49:21).",
+          "Palabras hermosas: 'Pronuncia dichos hermosos' — don de expresar la revelación con palabras que tocan el corazón (Gn 49:21).",
+          "Saciado de favores: la protección no es un escudo externo sino saturación interior del favor de Dios (Dt 33:23).",
+          "Autoridad sobre las aguas: 'Poseerá el mar' — acceso a las profundidades del Espíritu (Dt 33:23).",
+          "Ocupante de lugares altos: sube donde otros no se atreven — puntos de visión estratégica espiritual (Jue 5:18).",
+          "Portador de la carga sacerdotal: el ónice en los hombros del sacerdote — Neftalí lleva la carga de la intercesión (Ex 28:9-12)."
+        ],
+      
+        "instruccion": "Despierta a la capacidad de estar en lugares altos de visión estratégica. Despierta a las puertas abiertas del quinto mes — el 'He aquí' de Dios está por sonar sobre tu situación. En este mes Dios descenderá diseños y estrategias directamente del trono para ganar victorias en todas las batallas. Corre más rápido en la oscuridad — la cierva conoce el terreno por revelación. Declara protección: 'Estoy saciado de favores y colmado de la bendición de YHWH.'",
+      
+        "versiculos": [
+          {
+            "texto": "'Neftalí, cierva suelta, que pronuncia dichos hermosos.' / 'Muy dichoso Neftalí, saciado de favores, y lleno de la bendición de Jehová; toma posesión del occidente y del sur.'",
+            "referencia": "Gn 49:21; Dt 33:23"
+          },
+          {
+            "texto": "'El pueblo que habitaba en tinieblas vio una gran luz; a los que moraban en tierra de sombra de muerte, luz les resplandeció.'",
+            "referencia": "Is 9:2 / Mt 4:16"
+          }
+        ]
+      }
     },
     "Agosto": {
       "Mes": "6TO MES",
-      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes6to.jpg",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779760425/forex/forex_academy_professional_6toMesFondo.png",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png",
       "Calend1": "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes.",
       "description": "Mes de Manases",
@@ -299,7 +532,65 @@
           "title": "Manases — 'Haciendo olvidar'",
           "text": "Dios hace olvidar el dolor del pasado y lo reemplaza con multiplicacion. Gn 41:51."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 48:14-20",
+            "texto": "Jacob bendice a Manasés con manos cruzadas — la bendición patriarcal supera el orden natural."
+          },
+          {
+            "referencia": "Gn 48:19",
+            "texto": "'Su descendencia llegará a ser una multitud de naciones' — profecía de multiplicación sobre Manasés."
+          },
+          {
+            "referencia": "Gn 41:51",
+            "texto": "José llama a su hijo Manasés: 'Dios me hizo olvidar todo mi trabajo' — el olvido del dolor precede la multiplicación."
+          },
+          {
+            "referencia": "Jue 6:11-16",
+            "texto": "Gedeón de Manasés: de trillar trigo escondido a caudillo en un instante — el repente de Dios en el mes del grano."
+          },
+          {
+            "referencia": "Jue 7:1-25",
+            "texto": "Gedeón derrota a Madián con 300 hombres — victoria sobrenatural, herir los lomos del enemigo."
+          },
+          {
+            "referencia": "Nm 27:1-11",
+            "texto": "Las hijas de Zelofehad (de Manasés) claman justicia — tiempo de justicia y bendición para los jóvenes."
+          },
+          {
+            "referencia": "Neh 6:15",
+            "texto": "Nehemías termina la muralla de Jerusalén el 25 de Elul en 52 días — la obra imposible completada en el mes 6."
+          },
+          {
+            "referencia": "Ex 34:1-4",
+            "texto": "Moisés sube al Sinaí el 1 de Elul a recibir las segundas tablas — el repente de la misericordia que restaura el pacto."
+          }
+        ],
+      
+        "caracteristicas": [
+          "El olvidado que se multiplica: Manasés nació del dolor — lo que Dios hace olvidar lo reemplaza con abundancia (Gn 41:51-52).",
+          "Receptor de bendición patriarcal: Jacob impone manos sobre Manasés — la bendición del padre espiritual desciende aunque no seas el primero (Gn 48:14).",
+          "El repente de Dios — Gedeón: de trillar trigo escondido a caudillo en un instante — el repente llega en el momento más ordinario (Jue 6:11-16).",
+          "Conector de dos mundos: media tribu al este y media al oeste del Jordán — la Vav hecha territorio, une lo separado (Nm 32:33).",
+          "Ejecutor de justicia: Gedeón ejecuta a los reyes enemigos, las hijas de Zelofehad obtienen justicia (Jue 8:21; Nm 27:7).",
+          "Bendición para los jóvenes: Efraín y Manasés jóvenes reciben la bendición patriarcal de Jacob (Gn 48:14; Nm 27:1)."
+        ],
+      
+        "instruccion": "Este mes recibe la bendición patriarcal — busca tu cobertura espiritual y pide la imposición de manos. El repente de Dios puede llegar en el momento más cotidiano — no estés tan ocupado en lo ordinario que pierdas lo extraordinario. Conecta con personas estratégicas del Reino — las conexiones de Elul son divinas y con propósito eterno. Declara que los lomos de los adversarios de tu propósito son heridos y no se levantarán más. Los 40 días de Elul son tiempo de misericordia — aprovéchalos para el arrepentimiento y la restauración.",
+      
+        "versiculos": [
+          {
+            "texto": "'Yo soy de mi amado, y mi amado es mío.' (Acróstico de ELUL — el mes de la conexión nupcial con el Rey.)",
+            "referencia": "Cnt 6:3"
+          },
+          {
+            "texto": "'José llamó el nombre del primogénito Manasés... Y llamó el nombre del segundo Efraín; porque dijo: Dios me hizo fructificar en la tierra de mi aflicción.'",
+            "referencia": "Gn 41:51-52"
+          }
+        ]
+      }
     },
     "Septiembre": {
       "Mes": "7MO MES",
@@ -337,7 +628,65 @@
           "title": "Shimeon — 'El que escucha / YHWH escucho'",
           "text": "El juicio comienza por escuchar. El Dios que oye el clamor y responde con justicia. Gn 29:33."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Lv 23:23-25; Nm 29:1",
+            "texto": "Días 1-2: Rosh Hashaná — Año Nuevo Civil, Día del Juicio, Día de las Trompetas. Dios abre los libros."
+          },
+          {
+            "referencia": "Lv 16:1-34; He 9:7",
+            "texto": "Día 10: Yom Kippur — el día más santo del año. El Sumo Sacerdote entra al Lugar Santísimo. Rompimiento total de iniquidades generacionales."
+          },
+          {
+            "referencia": "Lv 23:33-43",
+            "texto": "Días 15-21: Sucot — Fiesta de los Tabernáculos. Israel mora en cabañas. Hoshaná Rabbah el día 21."
+          },
+          {
+            "referencia": "1R 8:2,65; 2Cr 5:3; 7:1-3",
+            "texto": "Dedicación del Templo de Salomón en Tisri — la Gloria llena el Templo con fuego y nube."
+          },
+          {
+            "referencia": "Lv 25:9-10",
+            "texto": "El Jubileo se anuncia en Yom Kippur del año 50 — la mayor liberación económica y social de Israel."
+          },
+          {
+            "referencia": "Gn 34:25-31",
+            "texto": "Simeón y Leví ejecutan juicio sobre Siquem — celo por la honra de la familia."
+          },
+          {
+            "referencia": "Nm 25:6-15",
+            "texto": "Finees ejecuta juicio sobre Zimri (príncipe de Simeón) — la separación entre lo santo y lo profano."
+          },
+          {
+            "referencia": "Neh 8:1-12",
+            "texto": "Esdras lee la Torah el día 1 de Tisri — el pueblo llora. 'La alegría del Señor es vuestra fuerza.'"
+          }
+        ],
+      
+        "caracteristicas": [
+          "El que escucha el juicio: el juicio comienza con la escucha — Dios escucha y Simeón escucha el decreto del juicio (Gn 29:33).",
+          "Celo por la honra de lo santo: reacciona con fuerza ante la deshonra de lo sagrado (Gn 34).",
+          "El corregido que enseña: la tribu dispersa en Judá produjo los maestros de Israel — el juicio produce sabiduría (Jos 19:1-9).",
+          "Sin heredad propia: Simeón habita en Judá — el mes del juicio contenido en el mes de la alabanza. Sin alabanza el juicio destruye; con alabanza purifica.",
+          "La separación como protección: el juicio que separa no destruye — protege al pueblo de la contaminación.",
+          "El verde claro es post-juicio: no es el color del juicio sino del brote que emerge después. El rompimiento produce vida nueva."
+        ],
+      
+        "instruccion": "Este mes sométete al proceso de purificación del Señor — la balanza de Dios es justa y misericordiosa. Declara el rompimiento de iniquidades generacionales por la sangre de Yeshúa sobre tu linaje. Lo que no pasa por la separación de este mes no puede entrar a la próxima dimensión. Escucha el shofar — el sonido que convoca, recuerda y corona al arrepentido. Aprovecha los 10 Días de Temor (Rosh Hashaná a Yom Kippur) para el arrepentimiento. El verde claro es el color de lo que nace después de la purificación.",
+      
+        "versiculos": [
+          {
+            "texto": "'Porque en este día se hará expiación por vosotros, y seréis limpios de todos vuestros pecados delante del Señor.'",
+            "referencia": "Lv 16:30"
+          },
+          {
+            "texto": "'Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu... y discierne los pensamientos y las intenciones del corazón.'",
+            "referencia": "He 4:12"
+          }
+        ]
+      }
     },
     "Octubre": {
       "Mes": "8VO MES",
@@ -375,7 +724,65 @@
           "title": "Levi — 'Union / Adherido'",
           "text": "El que se adhiere a Dios y une al pueblo con el Creador. Gn 29:34."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "1R 6:38",
+            "texto": "El Templo de Salomón terminado completamente en Marcheshván — el mes 8 completa la Casa de Dios."
+          },
+          {
+            "referencia": "Lv 8:1-36; 9:1",
+            "texto": "Consagración de Aarón y sus hijos — 7 días de consagración + el día 8 comienza el ministerio."
+          },
+          {
+            "referencia": "Ex 30:22-33",
+            "texto": "Unción del Tabernáculo y los sacerdotes con el aceite santo — fórmula exclusiva para Leví."
+          },
+          {
+            "referencia": "Mal 2:4-7; Nm 25:12-13",
+            "texto": "El Pacto de Leví — el pacto de la vida y la paz. El sacerdocio perpetuo."
+          },
+          {
+            "referencia": "Dt 33:10",
+            "texto": "'Enseñarán mis ordenanzas a Jacob y mi ley a Israel' — misión central de Leví: enseñar la Torah."
+          },
+          {
+            "referencia": "Dt 33:11",
+            "texto": "'Hiere los lomos de los que se levantan contra él' — la unción sacerdotal incluye poder de guerra."
+          },
+          {
+            "referencia": "Ex 32:26-29",
+            "texto": "Los levitas se ponen del lado del Señor en el pecado del becerro — celo por la pureza del culto."
+          },
+          {
+            "referencia": "Nm 18:20; Sal 16:5-6",
+            "texto": "'El Señor es la porción de su herencia' — el sacerdote que no tiene tierra tiene al Dios de la tierra."
+          }
+        ],
+      
+        "caracteristicas": [
+          "Sacerdote mediador: Leví es el puente entre Dios y el pueblo. La unción sacerdotal habilita la mediación (Nm 18:1-7).",
+          "El que se adhiere a Dios: 'Unión' — se adhiere al Señor en vez de a la tierra. El mes de la unión comienza por la unión con Dios (Gn 29:34).",
+          "Maestro de la Torah: 'Enseñarán mis ordenanzas a Jacob' — el mes del maestro que abre la Palabra con autoridad (Dt 33:10; Mal 2:7).",
+          "El celo que purifica: en Ex 32 los levitas se ponen del lado del Señor contra sus propios hermanos — la pureza del culto por encima de todo.",
+          "Sin heredad — YHWH es su porción: el sacerdote que no tiene tierra descubre que tiene el cielo (Nm 18:20; Sal 16:5).",
+          "El que hiere los lomos del enemigo: 'Hiere los lomos de sus adversarios para que no se levanten más' — la unción sacerdotal también vence en la batalla (Dt 33:11)."
+        ],
+      
+        "instruccion": "Este mes despierta a la unción sacerdotal del Lugar Santo — ministra en intimidad, en el mes sin fiesta, sin necesitar un evento. Únete intencionalmente a tu comunidad de fe — Leví significa 'unión'. Enseña la Palabra con autoridad de escriba que primero la vivió. Declara sobre cada enemigo espiritual: 'Tus lomos son heridos y no te levantarás más.' Enciende una vela en tu hogar cada noche de Marcheshván — en el mes más oscuro, el fuego sacerdotal arde deliberadamente. Declara Sal 16:5: 'El Señor es la porción de mi herencia.'",
+      
+        "versiculos": [
+          {
+            "texto": "'Enseñarán tus ordenanzas a Jacob, y tu ley a Israel; pondrán el incienso delante de ti... Bendice, oh Señor, lo que hicieren... hiere los lomos de los que se levantaren contra él, para que no se levanten más.'",
+            "referencia": "Dt 33:10-11"
+          },
+          {
+            "texto": "'El Señor es la porción de mi herencia y de mi copa; tú sustentas mi suerte. Las cuerdas me cayeron en lugares deleitosos, y es hermosa la heredad que me ha tocado.'",
+            "referencia": "Sal 16:5-6"
+          }
+        ]
+      }
     },
     "Noviembre": {
       "Mes": "9NO MES",
@@ -413,7 +820,64 @@
           "title": "Issachar — 'Hay recompensa / Hombre de salario'",
           "text": "El que recibe pago por el conocimiento invertido en el entendimiento de los tiempos. Gn 30:18."
         }
-      ]
+      ],"modal": {
+        "acontecimientos": [
+          {
+            "referencia": "1Cr 12:32",
+            "texto": "'Los hijos de Isacar, doscientos príncipes, entendidos en los tiempos, y que sabían lo que Israel debía hacer.'"
+          },
+          {
+            "referencia": "Dt 33:18-19",
+            "texto": "'Convocarán a los pueblos al monte; allí ofrecerán sacrificios de justicia.'"
+          },
+          {
+            "referencia": "Gn 49:14-15",
+            "texto": "'Isacar, asno fuerte que se recuesta entre los apriscos' — cargador de los tesoros del cielo."
+          },
+          {
+            "referencia": "Jn 10:22-23",
+            "texto": "Jesús camina en el Templo durante la Fiesta de la Dedicación (Janucá) — el mayor Tesoro Escondido revelado en Kislev."
+          },
+          {
+            "referencia": "1Mac 4:52-59",
+            "texto": "25 de Kislev: Janucá — Rededicación del Templo por los macabeos. El aceite para 1 día ardió 8 días — tesoros ocultos multiplicados."
+          },
+          {
+            "referencia": "Zac 1:7-21",
+            "texto": "Zacarías recibe visiones en el mes 11 [del año 2 de Darío] = Kislev — códigos secretos del futuro de Israel revelados."
+          },
+          {
+            "referencia": "Neh 1:1-4",
+            "texto": "Nehemías recibe noticias de Jerusalén en Kislev — el entendimiento de los tiempos produce intercesión."
+          },
+          {
+            "referencia": "Esd 10:9",
+            "texto": "Esdras convoca al pueblo a Jerusalén en el mes 9 — el pueblo convocado al monte rinde cuentas."
+          }
+        ],
+      
+        "caracteristicas": [
+          "Entendidos en los tiempos: saben exactamente qué debe hacer Israel en cada momento — discernimiento del kairos divino (1Cr 12:32).",
+          "Convocadores al monte: Isacar convoca a los pueblos al monte de la revelación para ofrendar con justicia (Dt 33:19).",
+          "Cargadores del peso del conocimiento: 'Asno fuerte' — carga el peso del entendimiento sin quejarse (Gn 49:14).",
+          "Ofrendantes de justicia: las ofrendas de Isacar no son de rutina sino de justicia — generosidad alineada con el decreto del cielo (Dt 33:19).",
+          "Descifrador de códigos secretos: ve el mismo evento desde múltiples perspectivas espirituales y temporales.",
+          "Consejeros del rey: asesores estratégicos que dicen al rey cuándo actuar y cuándo esperar — operan desde el trono."
+        ],
+      
+        "instruccion": "Este mes sube al monte y convoca a tu pueblo a la revelación. Pregúntale al Señor: '¿Qué momento es este? ¿Qué debo hacer ahora?' Presenta ofrendas de justicia — la generosidad alineada con el decreto del cielo desbloquea los tesoros escondidos. En el 25 de Kislev (Janucá), enciende las luces declarando que cada llama es un tesoro escondido que emerge. Escribe cada diseño y estrategia que recibas en silencio ante Dios. El Tet revela el bien que estuvo guardado todo el año — este mes la vasija se abre.",
+      
+        "versiculos": [
+          {
+            "texto": "'Los hijos de Isacar, doscientos príncipes, entendidos en los tiempos, y que sabían lo que Israel debía hacer.'",
+            "referencia": "1Cr 12:32"
+          },
+          {
+            "texto": "'Y te daré los tesoros escondidos, y los secretos muy guardados, para que sepas que yo soy el Señor, el Dios de Israel, que te llama por tu nombre.'",
+            "referencia": "Is 45:3"
+          }
+        ]
+      }
     },
     "Diciembre": {
       "Mes": "10MO MES",
@@ -451,7 +915,65 @@
           "title": "Zebulun — 'Morada / Exaltacion'",
           "text": "El que habita en la abundancia y exalta a Dios con sus negocios. Gn 30:20."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 49:13",
+            "texto": "'Zabulón en la ribera del mar morará; será para puerto de navíos' — vocación comercial divina."
+          },
+          {
+            "referencia": "Dt 33:18",
+            "texto": "'Alégrate, Zabulón, en tus salidas' — las salidas al comercio son causa de alabanza."
+          },
+          {
+            "referencia": "Dt 33:19",
+            "texto": "'Chuparán la abundancia de los mares y los tesoros escondidos de la arena' — riqueza de donde otros no buscan."
+          },
+          {
+            "referencia": "2R 25:1; Ez 24:1-2",
+            "texto": "10 de Tevet: inicio del sitio de Nabucodonosor a Jerusalén — la mayor batalla territorial del mes. Día de ayuno e intercesión."
+          },
+          {
+            "referencia": "Est 2:16",
+            "texto": "Ester llevada al palacio de Asuero en el mes de Tevet — favor sobrenatural en el territorio del rey."
+          },
+          {
+            "referencia": "Mr 4:37-41",
+            "texto": "Jesús calma la tormenta en el Mar de Galilea — territorio de Zabulón. '¡Calla, enmudece!' Autoridad sobre las aguas."
+          },
+          {
+            "referencia": "Lc 5:4-7",
+            "texto": "La pesca milagrosa: en obediencia a la Palabra, tanto pez que las redes se rompen. Bendición financiera sobrenatural sobre las aguas."
+          },
+          {
+            "referencia": "He 6:19",
+            "texto": "'Esta esperanza la tenemos como ancla del alma, segura y firme' — el ancla de Zabulón en la tormenta del invierno."
+          }
+        ],
+      
+        "caracteristicas": [
+          "El comerciante del Reino: sus negocios financian la visión de Dios — sustenta a los Isacares que estudian (Dt 33:18-19).",
+          "Habitante del mar: no teme las aguas que otros evitan — autoridad sobre lo impredecible y lo profundo (Gn 49:13).",
+          "El que extrae tesoros del mar: 'Chupará la abundancia de los mares' — prosperidad donde otros no buscan (Dt 33:19).",
+          "Alégrate en sus salidas: el comerciante del Reino no sale con ansiedad sino con gozo — la bendición fluye del gozo (Dt 33:18).",
+          "Puerto para los barcos: no solo navega sino que provee refugio y oportunidad para otros (Gn 49:13).",
+          "Guerrero territorial: las batallas del mes 10 son por el territorio asignado — el ancla firme garantiza lo conquistado."
+        ],
+      
+        "instruccion": "Este mes declara autoridad sobre las aguas financieras que han estado bloqueadas. Abre nuevas rutas de comercio en el espíritu. El 10 de Tevet intercede por los territorios espirituales y empresariales bajo asedio. Presenta el diezmo con intencionalidad — la Yod del diezmo activa la Yod del milagro financiero. Declara que eres puerto de bendición para otros — tu empresa es plataforma del Reino. Como Jesús reprendió el mar en tierra de Zabulón, reprende tú las tormentas financieras: '¡Calla, enmudece!'",
+      
+        "versiculos": [
+          {
+            "texto": "'Alégrate, Zabulón, en tus salidas; y tú, Isacar, en tus tiendas. Convocarán a los pueblos al monte; allí ofrecerán sacrificios de justicia, por lo cual chuparán la abundancia de los mares, y los tesoros escondidos de la arena.'",
+            "referencia": "Dt 33:18-19"
+          },
+          {
+            "texto": "'Esta esperanza la tenemos como ancla del alma, segura y firme, y que penetra hasta dentro del velo.'",
+            "referencia": "He 6:19"
+          }
+        ]
+      }
     },
     "Enero": {
       "Mes": "11VO MES",
@@ -489,11 +1011,73 @@
           "title": "Yosef — 'Que Dios anada / El anadido'",
           "text": "El que recibe doble porcion. Dios anada sobre lo anadido. Gn 30:24."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 49:22",
+            "texto": "'José es rama fructífera, rama fructífera junto a una fuente; sus vástagos se extienden sobre el muro.'"
+          },
+          {
+            "referencia": "Gn 49:24",
+            "texto": "'Sus brazos se fortalecieron por las manos del Fuerte de Jacob' — armas poderosas impartidas desde el cielo."
+          },
+          {
+            "referencia": "Gn 37:5-11",
+            "texto": "Los sueños de José — el sol, la luna y once estrellas se inclinan. Diseños del cielo que se cumplen con precisión."
+          },
+          {
+            "referencia": "Gn 41:15-52; 45:1-8",
+            "texto": "José interpreta los sueños del Faraón — el arma de la interpretación. Revela su identidad — el perdón como la mayor arma espiritual."
+          },
+          {
+            "referencia": "Gn 50:20",
+            "texto": "'Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien' — la fructificación en la tierra de la aflicción."
+          },
+          {
+            "referencia": "Dt 33:13-17",
+            "texto": "La bendición de Moisés sobre José — la más extensa: cielo, abismos, sol, montes eternos, príncipe de sus hermanos."
+          },
+          {
+            "referencia": "Zac 1:7-21",
+            "texto": "Zacarías recibe visiones el 24 de Shevat — el mes del soñador José es el mes de las visiones proféticas nocturnas."
+          },
+          {
+            "referencia": "Dt 1:1-3",
+            "texto": "Moisés comienza el discurso del Deuteronomio el 1 de Shevat — transmisión final de la Torah en el mes 11."
+          },
+          {
+            "referencia": "Nm 17:8",
+            "texto": "La vara de Aarón (almendro) florece y produce fruto en una noche — el fruto que emerge de la vara muerta, símbolo del mes."
+          }
+        ],
+      
+        "caracteristicas": [
+          "Rama fructífera junto a la fuente: el secreto de José — está plantado junto al manantial, produce fruto en toda estación (Gn 49:22).",
+          "El soñador que no rinde el sueño: cisterna, esclavitud, prisión — y nunca abandona la visión del cielo (Gn 37:5; 50:20).",
+          "Brazos fortalecidos por el Fuerte: las armas de José son impartidas por el Todopoderoso — no desarrolladas en la tierra (Gn 49:24).",
+          "Doble porción — Efraín y Manasés: el mes 11 es el mes de la doble porción — el fruto se multiplica por dos (Gn 48:5-6).",
+          "Fructificación en la aflicción: 'Dios me hizo fructificar en la tierra de mi aflicción' — el fruto no espera condiciones perfectas (Gn 41:52).",
+          "El perdón como arma suprema: 'Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien' — el perdón estratégico desarma al enemigo (Gn 50:20)."
+        ],
+      
+        "instruccion": "Este mes bebe directamente de la fuente del Espíritu — no de fuentes secundarias sino del manantial vivo. Empuña las armas poderosas espirituales: alabanza, perdón, sueños, Palabra, intercesión — 'son poderosas en Dios para la destrucción de fortalezas' (2Co 10:4). Declara bendición sobre la tierra asignada: cielo, abismo, frutos del sol y montes eternos. Guarda el sueño que Dios dio — no lo rindas aunque pase por la cisterna. En Tu Bishvat (15 de Shevat) planta junto a la fuente lo que debe dar fruto en el año nuevo.",
+      
+        "versiculos": [
+          {
+            "texto": "'José es rama fructífera, rama fructífera junto a una fuente... Le causaron amargura, le asaetearon... mas su arco permaneció poderoso, y los brazos de sus manos se fortalecieron por las manos del Fuerte de Jacob.'",
+            "referencia": "Gn 49:22-24"
+          },
+          {
+            "texto": "'Porque las armas de nuestra milicia no son carnales, sino poderosas en Dios para la destrucción de fortalezas.'",
+            "referencia": "2Co 10:4"
+          }
+        ]
+      }
     },
     "Febrero": {
       "Mes": "12VO MES",
-      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657542/forex/forex_academy_professional_Mes12vo.jpg",
+      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779760497/forex/forex_academy_professional_12voMesFondo.png",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png",
       "Calend1": "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequenos que moran en Sus hombros.",
       "description": "Mes de Benjamin",
@@ -527,6 +1111,64 @@
           "title": "Binyamin — 'Hijo de la mano derecha'",
           "text": "El lugar de honor y poder. El hijo del amor que cierra el ciclo de las doce tribus. Gn 35:18."
         }
-      ]
+      ],
+      "modal": {
+        "acontecimientos": [
+          {
+            "referencia": "Gn 49:27",
+            "texto": "'Benjamín es lobo arrebatador; a la mañana comerá la presa, y a la tarde repartirá los despojos.'"
+          },
+          {
+            "referencia": "Dt 33:12",
+            "texto": "'El amado del Señor habitará confiado cerca de él; lo cubrirá siempre, y entre sus hombros morará.'"
+          },
+          {
+            "referencia": "Est 2:5; 3:1-6",
+            "texto": "Mardoqueo, benjamita, se niega a inclinarse ante Amán — el más pequeño con identidad de amado no se dobla ante el enemigo."
+          },
+          {
+            "referencia": "Est 8:8-14; 9:1-28",
+            "texto": "Purim (14-15 Adar): el decreto de Amán revertido. Israel arrebata el botín. Alegría, banquete, generosidad con los pobres."
+          },
+          {
+            "referencia": "Gn 43:34",
+            "texto": "José sirve a Benjamín cinco veces más que a cualquier otro — el hijo amado recibe porción doble en la mesa."
+          },
+          {
+            "referencia": "Gn 44:1-2,12",
+            "texto": "La copa de plata en el saco de Benjamín — el hijo amado lleva el tesoro del rey sin saberlo."
+          },
+          {
+            "referencia": "1S 9:1-2,17",
+            "texto": "Saúl, primer rey de Israel, de Benjamín — de la tribu más pequeña emerge el primer gobernante."
+          },
+          {
+            "referencia": "Fil 3:5; Ro 11:1",
+            "texto": "Pablo apóstol: de la tribu de Benjamín — el más pequeño de los apóstoles escribe la mayor parte del NT."
+          }
+        ],
+      
+        "caracteristicas": [
+          "El amado — identidad que no se gana: 'El amado del Señor' no es por obras sino por posición. Se recibe morando cerca del Padre (Dt 33:12).",
+          "El lobo estratégico: arrebata con precisión nocturna — no con violencia ciega. Opera cuando otros duermen y reparte al amanecer (Gn 49:27).",
+          "El más pequeño que resulta el más poderoso: la tribu más pequeña produjo al primer rey, al salvador del pueblo y al mayor apóstol.",
+          "El que revierte los decretos: Ester y Mardoqueo (de Benjamín) escriben el decreto que revierte el de Amán — autoridad para reescribir (Est 8:8).",
+          "El que mora en los hombros: el lugar más alto y más cercano — desde allí se ve todo lo que el Padre ve (Dt 33:12).",
+          "El que comparte el botín: 'A la tarde repartirá los despojos' — la victoria de Benjamín termina en generosidad con los pobres (Gn 49:27; Est 9:22)."
+        ],
+      
+        "instruccion": "Este mes arrebata el botín que el enemigo acumuló durante todo el año — lo que Amán preparó para Mardoqueo, Mardoqueo lo heredó. Declara que el decreto del enemigo sobre tu vida es revertido en Adar. Abraza la identidad del hijo amado: 'Soy el amado del Señor. Habito confiado cerca de Él. Me cubre siempre. Moro entre Sus hombros.' Celebra con gozo desbordante — 'Cuando llega Adar, se multiplica la alegría.' Cierra el año declarando todo lo que Dios hizo en los 12 meses — y prepárate: el mes 1 vuelve a comenzar con el cetro de Judá.",
+      
+        "versiculos": [
+          {
+            "texto": "'El amado del Señor habitará confiado cerca de él; lo cubrirá siempre, y entre sus hombros morará.'",
+            "referencia": "Dt 33:12"
+          },
+          {
+            "texto": "'El Señor tu Dios está en medio de ti, poderoso, él salvará; se gozará sobre ti con alegría, callará de amor, se regocijará sobre ti con cánticos.'",
+            "referencia": "Sof 3:17"
+          }
+        ]
+      }
     }
   }

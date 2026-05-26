@@ -367,6 +367,13 @@ const colorActividadSeleccionada =
     return Imagenes[nombreMes]?.color || "bg-black"
   }
 
+//para tener color en hex
+function getHexFromTailwindBg(twColor) {
+  const match = twColor?.match(/\[#(.+?)\]/)
+  return match ? `#${match[1]}` : "#8B0000"
+} 
+//fin
+
   const userTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'
 
@@ -470,7 +477,8 @@ const colorActividadSeleccionada =
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     backgroundImage: `url(${imagenMesActual["image"]})`,
-                    backgroundSize: "cover",
+                    backgroundColor: getHexFromTailwindBg(imagenMesActual["color"]),
+                    backgroundSize:"cover",// "cover","contain"
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     opacity: 0.62,
