@@ -1,6 +1,7 @@
 {
     "Marzo": {
       "Mes": "1ER MES",
+      "Tribu":"Tribu de Judá",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1773598977/forex/forex_academy_professional_AbrilCALENDARIO1.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1773605714/forex/forex_academy_professional_abrilescudo.png",
       "Calend1": "Redencion, Liberacion y Restitucion. Mes de pasar de muerte a vida. Mes de nueva uncion.",
@@ -114,6 +115,7 @@
     },
     "Abril": {
       "Mes": "2DO MES",
+      "Tribu":"Tribu de Rubén",
       "image":"https://res.cloudinary.com/dvy9qircy/image/upload/v1779756200/forex/forex_academy_professional_2MesChatgpt.jpg",
       "image-original": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657345/forex/forex_academy_professional_Mes2do.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656143/forex/forex_academy_professional_Escudo2doMesTribuRuben.png",
@@ -210,7 +212,9 @@
     },
     "Mayo": {
       "Mes": "3ER MES",
-      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657380/forex/forex_academy_professional_Mes3ero.jpg",
+      "Tribu":"Tribu de Gad",
+      "image":"https://res.cloudinary.com/dvy9qircy/image/upload/v1779761766/forex/forex_academy_professional_3erMes.png",
+      "image-original": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657380/forex/forex_academy_professional_Mes3ero.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656218/forex/forex_academy_professional_Escudo3eroMesTribuGad.png",
       "Calend1": "Ensanchamiento. Mes de estremecimiento y juicio divino de los enemigos de los propositos de Dios. Mes de ser favorecidos por Dios.",
       "description": "Mes de Gad",
@@ -306,7 +310,9 @@
     },
     "Junio": {
       "Mes": "4TO MES",
-      "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657403/forex/forex_academy_professional_Mes4to.jpg",
+      "Tribu":"Tribu de Aser",
+      "image":"https://res.cloudinary.com/dvy9qircy/image/upload/v1779762535/forex/forex_academy_professional_4erMes.jpg",
+      "image-original": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657403/forex/forex_academy_professional_Mes4to.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656340/forex/forex_academy_professional_Escudo4toMesTribuASER.png",
       "Calend1": "Exito y prosperidad del pueblo de Dios. Mes de dar mucho fruto y uncion territorial.",
       "description": "Mes de Aser",
@@ -402,6 +408,7 @@
     },
     "Julio": {
       "Mes": "5TO MES",
+      "Tribu":"Tribu de Neftalí",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657421/forex/forex_academy_professional_Mes5to.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656436/forex/forex_academy_professional_Escudo5toMesTribuNeftali.png",
       "Calend1": "Sabiduria y Revelacion profunda, directa de la fuente del Espiritu para bajar disenos y estrategias para tener victorias en todas las batallas. Mes de proteccion. Mes de puertas abiertas y de palabras profeticas.",
@@ -498,6 +505,7 @@
     },
     "Agosto": {
       "Mes": "6TO MES",
+      "Tribu":"Tribu de Manasés",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779760425/forex/forex_academy_professional_6toMesFondo.png",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656523/forex/forex_academy_professional_Escudo6toMesTribuManases.png",
       "Calend1": "Multiplicacion. Mes de la bendicion patriarcal. Tiempo de justicia y de los repentes de Dios. Mes de conexion. Mes para herir a tus enemigos. Mes de Bendicion para los jovenes.",
@@ -594,6 +602,7 @@
     },
     "Septiembre": {
       "Mes": "7MO MES",
+      "Tribu":"Tribu de Simeón",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657444/forex/forex_academy_professional_Mes7mo.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656594/forex/forex_academy_professional_Escudo7toMesTribuSimeon.png",
       "Calend1": "Rompimientos de iniquidades. Mes de juicio y de separacion.",
@@ -690,6 +699,7 @@
     },
     "Octubre": {
       "Mes": "8VO MES",
+      "Tribu":"Tribu de Leví",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657463/forex/forex_academy_professional_Mes8vo.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656662/forex/forex_academy_professional_Escudo8toMesTribuLevi.png",
       "Calend1": "Uncion sacerdotal. Mes de union del pueblo de Dios. Mes de la ensenanza de la palabra, sus leyes y sus juicios. Mes de herir los lomos de los enemigos para que nunca se levanten.",
@@ -786,6 +796,7 @@
     },
     "Noviembre": {
       "Mes": "9NO MES",
+      "Tribu":"Tribu de Isacar",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657481/forex/forex_academy_professional_Mes9no.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656721/forex/forex_academy_professional_Escudo9noMesTribuIsacar.png",
       "Calend1": "Convocar el pueblo del Senor al monte. Mes de entendimiento de los tiempos del Padre. Mes de ofrendas de justicia. Mes de revelacion de los tesoros escondidos y codigos secretos.",
@@ -881,6 +892,7 @@
     },
     "Diciembre": {
       "Mes": "10MO MES",
+      "Tribu":"Tribu de Zabulón",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657501/forex/forex_academy_professional_Mes10mo.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656803/forex/forex_academy_professional_Escudo10moMesTribuSabulon.png",
       "Calend1": "Bendicion financiera comercial y empresarial. Mes de autoridad sobre las aguas. Mes de batallas territoriales.",
@@ -977,6 +989,7 @@
     },
     "Enero": {
       "Mes": "11VO MES",
+      "Tribu":"Tribu de José",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779657523/forex/forex_academy_professional_Mes11vo.jpg",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656888/forex/forex_academy_professional_Escudo11voMesTribuJose.png",
       "Calend1": "Fructificacion. Mes de beber directamente de la fuente del Espiritu. Mes de armas poderosas espirituales. Mes de bendicion sobre la tierra.",
@@ -1077,6 +1090,7 @@
     },
     "Febrero": {
       "Mes": "12VO MES",
+      "Tribu":"Tribu de Benjamín",
       "image": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779760497/forex/forex_academy_professional_12voMesFondo.png",
       "escudo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1779656962/forex/forex_academy_professional_Escudo12voMesTribuBenjamin.png",
       "Calend1": "Los que arrebatan el botin. Mes de los hijos amados de YHWH. Mes de los mas pequenos que moran en Sus hombros.",

@@ -10,16 +10,20 @@ export default function EscudoModal({ imagenMesActual, mensaje, data }) {
   return (
     <>
       <button
-        type="button"
-        onClick={() => setModalAbierto(true)}
-        className="hidden lg:block absolute bottom-[10px] left-[10px] z-20 h-[90px] w-[90px] cursor-pointer border-0 bg-transparent p-0"
-      >
-        <img
-          src={imagenMesActual}
-          alt="Escudo"
-          className="h-[90px] w-[90px] object-contain drop-shadow-xl"
-        />
-      </button>
+  type="button"
+  onClick={() => setModalAbierto(true)}
+  className="hidden lg:flex absolute bottom-[10px] left-[10px] z-20 flex-col items-center justify-center cursor-pointer border-0 bg-transparent p-0"
+>
+  <img
+    src={imagenMesActual}
+    alt="Escudo"
+    className="h-[90px] w-[90px] object-contain drop-shadow-xl"
+  />
+
+  <p className="mt-1 text-center text-xs font-semibold text-black">
+    {data?.Tribu}
+  </p>
+</button>
 
       {modalAbierto && (
         <div

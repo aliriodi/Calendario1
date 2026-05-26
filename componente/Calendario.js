@@ -346,33 +346,33 @@ export default function ScheduleDemo() {
       .toUpperCase() +
     format(firstDayCurrentMonth, 'MMMM', { locale: es }).slice(1)
 
- // esto es para colocar los backgroun y sabe en que
- //mes estamos de alli me traigo propiedades 
+  // esto es para colocar los backgroun y sabe en que
+  //mes estamos de alli me traigo propiedades 
   const imagenMesActual = Imagenes[nombreMesActual]
   const nombreMesSeleccionado =
-  format(selectedDay, "MMMM", { locale: es }).charAt(0).toUpperCase() +
-  format(selectedDay, "MMMM", { locale: es }).slice(1)
+    format(selectedDay, "MMMM", { locale: es }).charAt(0).toUpperCase() +
+    format(selectedDay, "MMMM", { locale: es }).slice(1)
 
-const imagenMesSeleccionado = Imagenes[nombreMesSeleccionado]
+  const imagenMesSeleccionado = Imagenes[nombreMesSeleccionado]
 
-const colorActividadSeleccionada =
-  imagenMesSeleccionado?.color ||
-  imagenMesActual?.color ||
-  "bg-black"
+  const colorActividadSeleccionada =
+    imagenMesSeleccionado?.color ||
+    imagenMesActual?.color ||
+    "bg-black"
   function getColorByDate(date) {
     const nombreMes =
       format(date, "MMMM", { locale: es }).charAt(0).toUpperCase() +
       format(date, "MMMM", { locale: es }).slice(1)
-  
+
     return Imagenes[nombreMes]?.color || "bg-black"
   }
 
-//para tener color en hex
-function getHexFromTailwindBg(twColor) {
-  const match = twColor?.match(/\[#(.+?)\]/)
-  return match ? `#${match[1]}` : "#8B0000"
-} 
-//fin
+  //para tener color en hex
+  function getHexFromTailwindBg(twColor) {
+    const match = twColor?.match(/\[#(.+?)\]/)
+    return match ? `#${match[1]}` : "#8B0000"
+  }
+  //fin
 
   const userTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'
@@ -478,7 +478,7 @@ function getHexFromTailwindBg(twColor) {
                   style={{
                     backgroundImage: `url(${imagenMesActual["image"]})`,
                     backgroundColor: getHexFromTailwindBg(imagenMesActual["color"]),
-                    backgroundSize:"cover",// "cover","contain"
+                    backgroundSize: "cover",// "cover","contain"
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     opacity: 0.62,
@@ -493,8 +493,8 @@ function getHexFromTailwindBg(twColor) {
 
                     const tieneActividad = actividades.some(
                       (actividad) => actividad.localDateKey === dayKey
-                        )
-                        const colorActividadDelDia = getColorByDate(day)
+                    )
+                    const colorActividadDelDia = getColorByDate(day)
 
                     return (
                       <div
@@ -560,13 +560,20 @@ function getHexFromTailwindBg(twColor) {
       alt="Escudo del mes"
       className="h-[90px] w-[90px] object-contain"
     /> */}
-                <div className="h-[90px] w-[90px] object-contain">
-                  <EscudoModal
-                    imagenMesActual={imagenMesActual.escudo}
-                    mensaje={imagenMesActual.description}
-                    color={imagenMesActual.color}
-                    data={imagenMesActual}
-                  /></div>
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative h-[90px] w-[90px]">
+                    <EscudoModal
+                      imagenMesActual={imagenMesActual.escudo}
+                      mensaje={imagenMesActual.description}
+                      color={imagenMesActual.color}
+                      data={imagenMesActual}
+                    />
+                  </div>
+
+                  {/* <p className="mt-0  text-xs font-semibold text-black">
+                    {imagenMesActual?.Tribu}
+                  </p> */}
+                </div>
               </div>
             </aside>
           </div>
